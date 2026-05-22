@@ -24,7 +24,7 @@ services:
       - key: SMTP_SERVER
         value: smtp.gmail.com
       - key: SMTP_PORT
-        value: 587
+        value: "587"
       - key: SMTP_USERNAME
         sync: false
       - key: SMTP_PASSWORD
@@ -33,6 +33,14 @@ services:
         sync: false
       - key: SMTP_FROM_NAME
         value: Tap & Pay
+      - key: SHIFT_EXPIRELY_TIME
+        value: "00:00"
+      - key: PAYMENT_TIME
+        value: "03:45"
+      - key: PAY_AMOUNT
+        value: "100"
+      - key: PORT
+        value: "10000"
 
   - type: static
     name: tap-and-pay-frontend
