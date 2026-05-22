@@ -58,20 +58,20 @@ def create_app():
     register_blueprints(app)
     
     # Health check endpoint
-    @app.route("/health", methods=["GET"])
-    def health_check():
-        try:
-            # Check Firebase connection
-            firebase_service.get_reference("/").get(shallow=True)
-            db_status = "connected"
-        except Exception as e:
-            db_status = f"error: {str(e)}"
-        
-        return jsonify({
-            "status": "healthy" if db_status == "connected" else "degraded",
-            "database": db_status,
-            "timestamp": datetime.now().isoformat()
-        }), 200 if db_status == "connected" else 503
+   @app.route("/health", methods=["GET"])
+@limiter.exempt  # ← ADD THIS LINE
+def health_check():
+    try:
+        firebase_service.get_reference("/").get(shallow=True)
+        db_status = "connected"
+    except Exception as e:
+        db_status = f"error: {str(e)}"
+    
+    return jsonify({
+        "status": "healthy" if db_status == "connected" else "degraded",
+        "database": db_status,
+        "timestamp": datetime.now().isoformat()
+    }), 200 if db_status == "connected" else 503
     
     # Error handlers
     @app.errorhandler(404)
