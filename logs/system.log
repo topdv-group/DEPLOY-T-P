@@ -1,0 +1,369 @@
+2026-05-22 02:40:03,356 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:40:03,371 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:40:10,972 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:40:10,974 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:44:08,094 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:44:08,107 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:44:16,327 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:44:16,329 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:44:16,429 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 02:44:16,533 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 02:44:16,603 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 02:44:16,678 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 02:44:16,692 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:44:16,723 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 02:44:16,723 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 02:44:16,728 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 02:44:16,726 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 02:44:16,731 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:44:17,945 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:44:17,947 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:44:21,871 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:44:21,873 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:44:21,879 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 02:44:21,884 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 02:44:21,887 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 02:44:22,947 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 02:47:11,315 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 02:49:03,567 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 02:49:12,747 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:49:12,751 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:49:20,184 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:49:20,185 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:49:20,237 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 02:49:20,256 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 02:49:20,273 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 02:49:20,297 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:49:20,305 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 02:49:20,349 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 02:49:20,351 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 02:49:20,361 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 02:49:20,364 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:49:20,359 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 02:49:21,526 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:49:21,528 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:49:26,448 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:49:26,449 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:49:26,450 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 02:49:26,455 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 02:49:26,462 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 02:49:27,689 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 02:54:13,983 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 02:54:33,766 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 02:55:08,015 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:55:08,163 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:55:26,190 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:55:26,192 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:55:26,489 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 02:55:26,750 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 02:55:26,819 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 02:55:26,879 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:55:26,936 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 02:55:27,022 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 02:55:27,022 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 02:55:27,066 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 02:55:27,116 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 02:55:27,123 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:55:28,196 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:55:28,198 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:55:34,766 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:55:34,767 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:55:34,773 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 02:55:34,779 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 02:55:34,782 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 02:55:35,490 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 02:57:04,679 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 02:57:13,754 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:57:13,762 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:57:21,698 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:57:21,699 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:57:21,754 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 02:57:21,772 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 02:57:21,813 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 02:57:21,846 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:57:21,853 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 02:57:21,914 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 02:57:21,914 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 02:57:21,953 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 02:57:21,954 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 02:57:21,995 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:57:23,111 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:57:23,113 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:57:27,059 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:57:27,060 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:57:27,061 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 02:57:27,062 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 02:57:27,063 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 02:57:27,637 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 02:59:05,359 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 02:59:19,766 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 02:59:19,768 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 02:59:28,221 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 02:59:28,244 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 02:59:28,604 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 02:59:28,933 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 02:59:29,377 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 02:59:29,488 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 02:59:29,535 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:59:29,620 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 02:59:29,620 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 02:59:29,680 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 02:59:29,690 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 02:59:29,701 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 02:59:30,818 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:59:30,891 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:59:35,556 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 02:59:35,558 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 02:59:35,563 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 02:59:35,567 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 02:59:35,569 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 02:59:36,188 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 02:59:39,361 - app.utils.logger - ERROR - Login error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2026-05-22 03:00:15,904 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-22 03:00:16,612 - app.utils.logger - WARNING - Invalid password for topdvgroup@gmail.com
+2026-05-22 03:03:23,901 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 03:10:15,587 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 03:10:15,590 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 03:10:22,540 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 03:10:22,542 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 03:10:22,657 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 03:10:22,792 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 03:10:22,797 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 03:10:22,812 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:10:22,816 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 03:10:22,828 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 03:10:22,828 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 03:10:22,833 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:10:22,838 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 03:10:22,847 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:10:24,031 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:10:24,032 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:10:28,800 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:10:28,803 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:10:28,805 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 03:10:28,805 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 03:10:28,806 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 03:10:29,601 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 03:11:39,794 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-22 03:11:40,486 - app.utils.logger - WARNING - Invalid password for topdvgroup@gmail.com
+2026-05-22 03:14:02,586 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-22 03:14:06,714 - app.utils.logger - INFO - User logged in successfully: topdvgroup@gmail.com
+2026-05-22 03:14:21,840 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 03:14:34,284 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 03:14:34,323 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 03:14:45,182 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 03:14:45,185 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 03:14:45,255 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 03:14:45,305 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 03:14:45,345 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 03:14:45,360 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:14:45,360 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 03:14:45,373 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 03:14:45,373 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 03:14:45,392 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:14:45,401 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 03:14:45,423 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:14:46,595 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:14:46,666 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:14:50,652 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:14:50,713 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:14:50,723 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 03:14:50,726 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 03:14:50,729 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 03:14:52,134 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 03:19:49,774 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:23:05,608 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 03:23:19,724 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 03:23:19,785 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 03:23:28,920 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 03:23:37,471 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 03:23:37,641 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 03:23:37,667 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 03:23:37,669 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 03:23:37,683 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:23:37,693 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 03:23:37,711 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 03:23:37,711 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 03:23:37,716 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:23:37,717 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 03:23:37,732 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:23:38,895 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:23:38,896 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:23:43,035 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-22 03:23:43,036 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:23:43,037 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 03:23:43,038 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 03:23:43,039 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 03:23:43,849 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 03:23:56,423 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-22 03:23:57,422 - app.utils.logger - INFO - User logged in successfully: topdvgroup@gmail.com
+2026-05-22 03:24:01,659 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 03:24:12,033 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 03:28:10,707 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 03:28:41,900 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:33:12,657 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:33:12,718 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:33:21,101 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:33:21,482 - waitress.queue - WARNING - Task queue depth is 2
+2026-05-22 03:33:29,359 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 03:33:42,183 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:38:33,516 - app.utils.logger - INFO - New employee registered: bakame (ID: -OtCKNzZsLfKrndyUmxf)
+2026-05-22 03:38:43,412 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:39:42,775 - app.utils.logger - INFO - Retrieved 5 employees
+2026-05-22 03:40:04,443 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:40:59,429 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 03:41:14,507 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 03:41:14,511 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 03:41:21,438 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 03:41:21,440 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 03:41:21,533 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 03:41:21,561 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 03:41:21,582 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 03:41:21,597 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:41:21,605 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 03:41:21,620 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 03:41:21,620 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 03:41:21,623 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:41:21,626 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 03:41:21,630 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:41:23,219 - app.utils.logger - INFO - Attendance reset for 5 employees
+2026-05-22 03:41:23,221 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:41:27,273 - app.utils.logger - INFO - Attendance reset for 5 employees
+2026-05-22 03:41:27,275 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:41:27,276 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 03:41:27,277 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 03:41:27,278 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 03:41:27,838 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 03:41:41,214 - app.utils.logger - INFO - Retrieved 5 employees
+2026-05-22 03:41:47,682 - app.utils.logger - INFO - Retrieved 5 employees
+2026-05-22 03:41:56,254 - app.utils.logger - INFO - Retrieved 5 employees
+2026-05-22 03:42:30,109 - app.utils.logger - INFO - New employee registered: yyyy (ID: -OtCLHk9ZPs9oJwEBEHI)
+2026-05-22 03:42:37,927 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:42:47,769 - app.utils.logger - INFO - Attendance marked for Ndikubwimana Eric
+2026-05-22 03:42:48,781 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:42:52,603 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:43:01,500 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:43:03,545 - app.utils.logger - INFO - Attendance marked for Omega
+2026-05-22 03:43:04,247 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:43:35,058 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '03:45', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:43:35,060 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '03:45', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:45:21,846 - app.utils.logger - INFO - Starting employee payment requests...
+2026-05-22 03:45:25,479 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250733355271
+2026-05-22 03:45:29,607 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250733355271
+2026-05-22 03:45:29,613 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250789789890
+2026-05-22 03:45:33,350 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250789789890
+2026-05-22 03:45:33,355 - app.utils.logger - INFO - Payment request complete. Accepted=2, Failed=0, Skipped=4
+2026-05-22 03:46:26,205 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:47:17,098 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:47:20,327 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:47:46,574 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:50:49,032 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:50:56,434 - app.utils.logger - INFO - Retrieved 6 employees
+2026-05-22 03:51:33,926 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:52:17,574 - app.utils.logger - INFO - Employee -Ot9HNk7qUlzarOxaA-2 deleted
+2026-05-22 03:52:17,863 - app.utils.logger - INFO - Retrieved 5 employees
+2026-05-22 03:52:21,552 - app.utils.logger - INFO - Employee -Ot9HFtE2E5nxAREDlA2 deleted
+2026-05-22 03:52:21,958 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 03:52:28,279 - app.utils.logger - INFO - Employee -OtCLHk9ZPs9oJwEBEHI deleted
+2026-05-22 03:52:28,689 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:52:44,546 - app.utils.logger - INFO - Attendance marked for bakame
+2026-05-22 03:52:45,107 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:52:48,013 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:52:58,243 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:53:00,555 - app.utils.logger - INFO - Attendance marked for Shimwa Nexon
+2026-05-22 03:53:01,138 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:53:18,080 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '03:54', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:53:18,083 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '03:54', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:56:14,147 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 03:56:20,684 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 03:56:37,939 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '03:57', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:56:37,968 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '03:57', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-22 03:56:42,804 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:58:11,890 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 03:59:22,565 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 03:59:22,571 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 03:59:30,226 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '03:57', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 03:59:30,228 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 03:59:30,483 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 03:59:30,577 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 03:59:30,581 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 03:59:30,597 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:59:30,611 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 03:59:30,613 - app.utils.logger - INFO - Starting employee payment requests...
+2026-05-22 03:59:30,616 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 03:59:30,617 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 03:59:30,631 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 03:59:30,632 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 03:59:30,646 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 03:59:31,674 - app.utils.logger - INFO - Attendance reset for 3 employees
+2026-05-22 03:59:31,676 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:59:36,773 - app.utils.logger - INFO - Payment request complete. Accepted=0, Failed=0, Skipped=3
+2026-05-22 03:59:37,538 - app.utils.logger - INFO - Attendance reset for 3 employees
+2026-05-22 03:59:37,601 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 03:59:37,608 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-22 03:59:37,670 - app.utils.logger - INFO - Starting employee payment requests...
+2026-05-22 03:59:38,087 - app.utils.logger - INFO - Payment request complete. Accepted=0, Failed=0, Skipped=3
+2026-05-22 03:59:38,108 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 03:59:38,215 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 03:59:38,216 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 03:59:39,616 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 04:04:36,503 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 04:09:42,665 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 04:14:55,997 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 04:16:34,661 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-22 04:17:27,131 - app.utils.logger - INFO - Firebase credentials loaded from environment variable
+2026-05-22 04:17:27,138 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-22 04:17:36,074 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '03:57', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-22 04:17:36,108 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-22 04:17:36,251 - app.utils.logger - INFO - All blueprints registered
+2026-05-22 04:17:36,325 - app.utils.logger - INFO - Starting background threads...
+2026-05-22 04:17:36,908 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-22 04:17:37,029 - app.utils.logger - INFO - Payment timer thread started
+2026-05-22 04:17:37,041 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 04:17:37,042 - app.utils.logger - INFO - Starting employee payment requests...
+2026-05-22 04:17:37,045 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-22 04:17:37,057 - app.utils.logger - INFO - All background threads started successfully
+2026-05-22 04:17:37,061 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 04:17:37,070 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-22 04:17:37,080 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-22 04:17:38,178 - app.utils.logger - INFO - Attendance reset for 3 employees
+2026-05-22 04:17:38,393 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 04:17:48,172 - app.utils.logger - INFO - Attendance reset for 3 employees
+2026-05-22 04:17:48,205 - app.utils.logger - INFO - Attendance reset complete
+2026-05-22 04:17:48,209 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-22 04:17:48,212 - app.utils.logger - INFO - Starting employee payment requests...
+2026-05-22 04:17:48,453 - app.utils.logger - INFO - Payment request complete. Accepted=0, Failed=0, Skipped=3
+2026-05-22 04:17:48,502 - app.utils.logger - INFO - Payment request complete. Accepted=0, Failed=0, Skipped=3
+2026-05-22 04:17:48,509 - app.utils.logger - INFO - Startup event check completed
+2026-05-22 04:17:48,512 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-22 04:17:48,513 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-22 04:17:49,244 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-22 04:17:56,946 - app.utils.logger - INFO - Retrieved 3 employees
+2026-05-22 04:18:24,684 - app.utils.logger - INFO - New employee registered: Top Dv (ID: -OtCTVkxfhNazGUxvc9X)
+2026-05-22 04:18:28,462 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:18:44,080 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:04,497 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:14,923 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:17,332 - app.utils.logger - INFO - Attendance marked for Top Dv
+2026-05-22 04:19:18,035 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:21,117 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:32,251 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:34,511 - app.utils.logger - INFO - Attendance marked for Hirwa aldo
+2026-05-22 04:19:35,433 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:41,728 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:19:54,585 - app.utils.logger - INFO - Webhook received at path: /pawapay/webhook
+2026-05-22 04:19:54,586 - app.utils.logger - INFO - Webhook received at path: /pawapay/webhook
+2026-05-22 04:19:54,591 - app.utils.logger - INFO - Webhook headers: {'Host': 'banker-goliath-humped.ngrok-free.dev', 'User-Agent': 'Apache-HttpClient/5.4.1 (Java/17.0.16)', 'Content-Length': '431', 'Accept-Encoding': 'gzip, x-gzip, deflate', 'Content-Type': 'application/json'}
+2026-05-22 04:19:54,601 - app.utils.logger - INFO - Webhook headers: {'Host': 'banker-goliath-humped.ngrok-free.dev', 'User-Agent': 'Apache-HttpClient/5.4.1 (Java/17.0.16)', 'Content-Length': '431', 'Accept-Encoding': 'gzip, x-gzip, deflate', 'Content-Type': 'application/json'}
+2026-05-22 04:19:54,608 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-22T01:45:33Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': 'bd025b91-0f07-4d46-ad33-3b0cf241623e', 'providerTransactionId': '8dbceaf4-8783-4b61-b6b2-ed1c4b1784c5', 'recipient': {'accountDetails': {'phoneNumber': '250789789890', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-22 04:19:54,616 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-22T01:45:29Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': 'fa3d0090-c157-4624-9c8d-ca8fe7af7050', 'providerTransactionId': 'b5003cd3-ca89-4378-9eba-9601715d0c00', 'recipient': {'accountDetails': {'phoneNumber': '250733355271', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-22 04:19:54,902 - app.utils.logger - WARNING - Webhook received for unknown payoutId: bd025b91-0f07-4d46-ad33-3b0cf241623e
+2026-05-22 04:19:54,932 - app.utils.logger - WARNING - Webhook received for unknown payoutId: fa3d0090-c157-4624-9c8d-ca8fe7af7050
+2026-05-22 04:20:19,089 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '04:21', 'payAmount': 5000, 'shiftExpirelyTime': '00:00'}
+2026-05-22 04:20:19,091 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '04:21', 'payAmount': 5000, 'shiftExpirelyTime': '00:00'}
+2026-05-22 04:21:57,946 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-22 04:22:14,284 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:22:31,414 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:22:35,284 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-22 04:22:47,163 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-22 04:23:13,058 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
