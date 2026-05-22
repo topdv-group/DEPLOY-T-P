@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# run.py - Main entry point (place in ROOT directory)
+# run.py - Main entry point
 import os
 import sys
 import threading
@@ -11,7 +11,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from app import create_app
 from app.utils.logger import logger, shutdown_event
 
-def start_background_threads(app):
+# Create Flask app at module level (MUST be outside if __name__ block)
+app = create_app()
+
+def start_background_threads():
     """Start all background threads"""
     firebase_service = app.config.get('FIREBASE_SERVICE')
     settings_service = app.config.get('SETTINGS_SERVICE')
@@ -55,7 +58,7 @@ def start_background_threads(app):
     
     logger.info("All background threads started successfully")
 
-def check_missed_events(app):
+def check_missed_events():
     """Check for missed events on startup"""
     try:
         firebase_service = app.config.get('FIREBASE_SERVICE')
@@ -78,16 +81,20 @@ def check_missed_events(app):
     except Exception as e:
         logger.error(f"Error checking missed events: {e}")
 
-# Create Flask app
-app = create_app()
+# Start background threads when the module loads (for Gunicorn)
+# This runs when the app is imported, not just when run directly
+if os.environ.get("PRODUCTION") == "true":
+    # On Render, start background threads
+    start_background_threads()
+    check_missed_events()
 
 if __name__ == "__main__":
     try:
-        # Start background threads
-        start_background_threads(app)
+        # Start background threads (for local development)
+        start_background_threads()
         
         # Check for missed events
-        check_missed_events(app)
+        check_missed_events()
         
         # Get port from environment
         port = int(os.environ.get("PORT", 5000))
