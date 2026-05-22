@@ -9,7 +9,7 @@ Create .env
     Example contents:
     SECRET_KEY=mysecretkey
     FIREBASE_KEY_PATH=serviceAccountKey.json
-    DATABASE_URL=https://tappay-46c65-default-rtdb.europe-west1.firebasedatabase.app/
+   
 
 Create .gitignore
     venv/
@@ -17,11 +17,11 @@ Create .gitignore
     firebase/serviceAccountKey.json
     __pycache__/
 
-C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\tap_and_pay>git remote add origin https://github.com/topdv-group/tapAndPay
+C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\tap_and_pay>git remote add origin https:
 
 C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\tap_and_pay>git config --global user.name "topdv-group"
 
-C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\tap_and_pay>git config --global user.email "topdvgroup@gmail.com"
+C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\tap_and_pay>git config --global user.email ""
 
 errors: 1
     I tried to get the -snap_shot = target_ref.order_by_child("phone").get()
