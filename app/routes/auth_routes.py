@@ -123,3 +123,28 @@ def auth_logout():
     except Exception as e:
         logger.error(f"Logout error: {e}")
         return jsonify({"success": False}), 500
+
+@auth_bp.route('/forgot-password', methods=['POST'])
+def auth_forgot_password():
+    try:
+        data = request.get_json()
+        email = data.get('email', '').strip().lower()
+        
+        if not email:
+            return jsonify({"error": "Email required"}), 400
+        
+        import secrets
+        reset_token = secrets.token_urlsafe(32)
+        
+        from datetime import datetime, timedelta
+        base_url = request.host_url.rstrip('/')
+        reset_link = f"{base_url}/reset-password.html?token={reset_token}"
+        
+        return jsonify({
+            "success": True,
+            "message": "Reset link generated",
+            "reset_link": reset_link
+        }), 200
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
