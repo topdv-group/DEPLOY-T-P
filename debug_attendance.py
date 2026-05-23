@@ -1,4 +1,4 @@
-# fix_all_attendance.py
+# debug_payment.py
 import os
 import json
 import firebase_admin
@@ -21,33 +21,70 @@ else:
 database_url = os.getenv("DATABASE_URL")
 firebase_admin.initialize_app(cred, {'databaseURL': database_url})
 
+# Get settings
+settings_ref = db.reference("SYSTEM_SETTINGS")
+settings = settings_ref.get()
+
+# Get employees
 employees_ref = db.reference("EMPLOYEES")
 employees = employees_ref.get()
 
 today = datetime.now().strftime("%Y-%m-%d")
-updated_count = 0
+current_time = datetime.now().strftime("%H:%M")
+payment_time = settings.get("paymentTime", "17:30")
+pay_amount = settings.get("payAmount", 100)
+api_key = os.getenv("PAWAPAY_API_KEY")
 
-print(f"Fixing attendance for {today}")
 print("=" * 60)
+print("PAYMENT SYSTEM DIAGNOSTIC")
+print("=" * 60)
+print(f"Current time: {current_time}")
+print(f"Payment time setting: {payment_time}")
+print(f"Time reached: {current_time >= payment_time}")
+print(f"Pay amount: {pay_amount} RWF")
+print(f"PawaPay API Key configured: {'✅ YES' if api_key else '❌ NO'}")
+print(f"API URL: {settings.get('pawapayApiUrl', 'Not set')}")
+print("=" * 60)
+
+# Check employees
+attended_count = 0
+paid_count = 0
+pending_count = 0
+
+print("\nEmployees today:")
+print("-" * 60)
 
 for key, details in employees.items():
     name = details.get("name", "Unknown")
-    attendance_list = details.get("attendance", [])
+    attended = details.get("attended", False)
+    paid = details.get("paid", False)
+    payment_status = details.get("payment_status", "N/A")
     
-    # Check if there's an attendance record for today
-    attended_today = False
-    for record in attendance_list:
-        if record.get("date") == today:
-            attended_today = True
-            break
-    
-    current_attended = details.get("attended", False)
-    
-    if attended_today != current_attended:
-        print(f"Fixing {name}: attended={current_attended} -> should be {attended_today}")
-        employees_ref.child(key).update({"attended": attended_today})
-        updated_count += 1
+    if attended:
+        attended_count += 1
+        if paid:
+            paid_count += 1
+        elif payment_status == "PENDING":
+            pending_count += 1
+            print(f"  {name}: Attended ✅ | Payment PENDING ⏳ (payout_id: {details.get('payoutId', 'N/A')[:20]}...)")
+        else:
+            print(f"  {name}: Attended ✅ | Not paid ❌ | Status: {payment_status}")
+    else:
+        print(f"  {name}: Absent ❌")
 
+print("-" * 60)
+print(f"Summary:")
+print(f"  Attended today: {attended_count}")
+print(f"  Paid today: {paid_count}")
+print(f"  Pending payments: {pending_count}")
+print(f"  Ready to pay: {attended_count - paid_count - pending_count}")
 print("=" * 60)
-print(f"Fixed {updated_count} employees")
-print("\n✅ All employees are now consistent!")
+
+# Check if payment should trigger
+if current_time >= payment_time:
+    print(f"\n⚠️ PAYMENT TIME HAS BEEN REACHED!")
+    print(f"   The payment timer should have triggered.")
+    print(f"   Check your logs for: 'Starting employee payment requests...'")
+else:
+    print(f"\n⏳ Payment time not reached yet.")
+    print(f"   Will trigger at {payment_time}")

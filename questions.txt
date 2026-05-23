@@ -1,22 +1,12 @@
-Today: 2026-05-23
-================================================================================
-Name                 attended field  Attendance History   Status
-================================================================================
-Bakame               False           True                 ⚠️ INCONSISTENT - Has history but attended=false
-================================================================================
+2026-05-24 00:45:39,790 - app.utils.logger - INFO - Payment check - Time: 00:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 00:45:39,791 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 00:45:44,857 - app.utils.logger - INFO - Webhook received
+2026-05-24 00:45:46,040 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:38Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': 'b4e4ede8-33e1-4c46-9a68-39c7014ad8ac', 'recipient': {'accountDetails': {'phoneNumber': '250733456089', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 00:45:46,384 - app.utils.logger - WARNING - Payout ID not found in database: b4e4ede8-33e1-4c46-9a68-39c7014ad8ac
+2026-05-24 00:45:49,517 - app.utils.logger - INFO - Webhook received
+2026-05-24 00:45:49,520 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:43Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '5c0df860-c5e8-42f6-8bf3-3910ce27def3', 'recipient': {'accountDetails': {'phoneNumber': '250733456789', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 00:45:49,854 - app.utils.logger - WARNING - Payout ID not found in database: 5c0df860-c5e8-42f6-8bf3-3910ce27def3
+2026-05-24 00:45:54,478 - app.utils.logger - INFO - Webhook received
+2026-05-24 00:45:54,479 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:48Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '70accc12-ac69-4d05-8b8f-0063129b2f78', 'recipient': {'accountDetails': {'phoneNumber': '250733456129', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 00:45:54,773 - app.utils.logger - WARNING - Payout ID not found in database: 70accc12-ac69-4d05-8b8f-0063129b2f78
 
-C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\DEPLOY-T-P>
-C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\DEPLOY-T-P>python debug_attendance.py
-Fixing attendance for 2026-05-23
-============================================================
-Fixing Bakame: attended=False -> should be True
-============================================================
-Fixed 1 employees
-
-✅ All employees are now consistent!
-
-C:\Users\Aldo\OneDrive\Documents\KABAYA\TUMIRA\DEPLOY-T-P>
-{kay now things are good the consistence is going well but now the payment is not good and when i choose the time
-it must pay the workers. for sure it shows that it tracks them but sure not showing any sign of payments,
-and maybe you can tell me the associated payment files we can modify.
-}
