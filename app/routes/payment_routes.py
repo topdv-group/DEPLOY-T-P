@@ -5,6 +5,10 @@ from app.utils.logger import logger
 
 payment_bp = Blueprint('payment', __name__, url_prefix='/api')
 
+
+#https://banker-goliath-humped.ngrok-free.dev/pawapay/webhook
+#https://deploy-t-p.onrender.com/pawapay/webhook
+
 @payment_bp.route("/pawapay/webhook", methods=["POST"])
 def pawapay_webhook():
     try:

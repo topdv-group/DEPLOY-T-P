@@ -6,6 +6,10 @@ from app.services.attendance_service import AttendanceService
 
 attendance_bp = Blueprint('attendance', __name__, url_prefix='/api')
 
+# app/routes/attendance_routes.py
+
+# app/routes/attendance_routes.py
+
 @attendance_bp.route('/markAttendance', methods=["POST"])
 def mark_attendance():
     try:
@@ -22,6 +26,9 @@ def mark_attendance():
         
         timestamp = data.get("time")
         result = attendance_service.mark_attendance(rfid, timestamp)
+        
+        # Log the result for debugging
+        logger.info(f"Attendance result: {result}")
         
         status_code = 200 if result.get("success") else 400
         return jsonify(result), status_code

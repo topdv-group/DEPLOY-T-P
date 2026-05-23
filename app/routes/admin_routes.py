@@ -4,6 +4,8 @@ from datetime import datetime
 import json
 import os
 from app.utils.logger import logger
+from flask_limiter import Limiter  # ← ADD THIS
+from flask_limiter.util import get_remote_address  # ← ADD THIS
 
 admin_bp = Blueprint('admin', __name__, url_prefix='/api/admin')
 
@@ -51,6 +53,7 @@ def update_payment_settings():
         return jsonify({"error": str(e)}), 500
 
 @admin_bp.route('/stats', methods=['GET'])
+# @Limiter.exempt  # ← ADD THIS LINE
 def get_stats():
     try:
         firebase_service = current_app.config['FIREBASE_SERVICE']

@@ -51,12 +51,15 @@ class FirebaseService:
             logger.error(f"Error finding employee by payout ID: {e}")
             return None, None
     
+    # app/services/firebase_service.py
+
     def get_employee_by_rfid(self, rfid):
         """Find employee by RFID - returns (found, employee_id, employee_details)"""
         try:
             employees = self.get_employees()
             if employees:
                 for key, details in employees.items():
+                    # Convert both to string for comparison
                     if str(details.get("rfid")) == str(rfid):
                         return True, key, details
             return False, None, None

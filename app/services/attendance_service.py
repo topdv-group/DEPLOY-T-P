@@ -6,6 +6,8 @@ class AttendanceService:
     def __init__(self, firebase_service):
         self.firebase_service = firebase_service
     
+    # app/services/attendance_service.py
+
     def mark_attendance(self, rfid, custom_timestamp=None):
         found, employee_id, employee_details = self.firebase_service.get_employee_by_rfid(rfid)
         
@@ -23,20 +25,25 @@ class AttendanceService:
         if "attendance" not in employee:
             employee["attendance"] = []
         
+        # Check if already attended today
         already_marked = any(record.get("timestamp", "").startswith(today_date) for record in employee.get("attendance", []))
         
         if already_marked:
             return {"success": True, "already_marked": True, "message": f"{employee_details.get('name')} already attended today"}
         
+        # Add attendance record
         attendance_record = {"timestamp": current_time, "date": today_date}
         employee["attendance"].append(attendance_record)
         
-        self.firebase_service.update_employee(employee_id, {
+        # CRITICAL: Update ALL these fields
+        update_data = {
             "attendance": employee["attendance"],
-            "attended": True,
+            "attended": True,  # ← THIS MUST BE SET TO TRUE
             "last_attendance": current_time,
             "last_attendance_date": today_date
-        })
+        }
+        
+        self.firebase_service.update_employee(employee_id, update_data)
         
         logger.info(f"Attendance marked for {employee_details.get('name')}")
         
