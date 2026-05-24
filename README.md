@@ -149,4 +149,14 @@ You already have:
 app = create_app()
 
 
+FOR THIS ERROR
+    To https://github.com/topdv-group/DEPLOY-T-P
+    ! [remote rejected] main -> main (push declined due to repository rule violations)
+    error: failed to push some refs to 'https://github.com/topdv-group/DEPLOY-T-P'
 
+    git reset --soft HEAD~1
+    git rm --cached serviceAccountKey.json
+    echo "serviceAccountKey.json" >> .gitignore
+    git add .gitignore
+    git commit -m "Your original commit message without secrets"
+    git push origin main

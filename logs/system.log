@@ -769,3 +769,1530 @@
 2026-05-24 01:21:18,649 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
 2026-05-24 01:21:19,818 - app.utils.logger - INFO - Payment check - Time: 01:21, Target: 00:44, Last payment date: 2026-05-24
 2026-05-24 01:21:19,902 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:21:48,670 - app.utils.logger - INFO - Payment check - Time: 01:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:21:48,673 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:21:50,012 - app.utils.logger - INFO - Payment check - Time: 01:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:21:50,042 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:22:18,688 - app.utils.logger - INFO - Payment check - Time: 01:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:22:18,712 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:22:20,079 - app.utils.logger - INFO - Payment check - Time: 01:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:22:20,111 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:22:48,748 - app.utils.logger - INFO - Payment check - Time: 01:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:22:48,755 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:22:50,188 - app.utils.logger - INFO - Payment check - Time: 01:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:22:50,197 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:23:18,788 - app.utils.logger - INFO - Payment check - Time: 01:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:23:18,797 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:23:20,222 - app.utils.logger - INFO - Payment check - Time: 01:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:23:20,233 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:23:48,823 - app.utils.logger - INFO - Payment check - Time: 01:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:23:48,862 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:23:50,239 - app.utils.logger - INFO - Payment check - Time: 01:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:23:50,255 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:24:04,920 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:24:04,932 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:38Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': 'b4e4ede8-33e1-4c46-9a68-39c7014ad8ac', 'recipient': {'accountDetails': {'phoneNumber': '250733456089', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:24:09,513 - app.utils.logger - WARNING - Payout ID not found in database: b4e4ede8-33e1-4c46-9a68-39c7014ad8ac
+2026-05-24 01:24:09,614 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:24:09,617 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:43Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '5c0df860-c5e8-42f6-8bf3-3910ce27def3', 'recipient': {'accountDetails': {'phoneNumber': '250733456789', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:24:09,900 - app.utils.logger - WARNING - Payout ID not found in database: 5c0df860-c5e8-42f6-8bf3-3910ce27def3
+2026-05-24 01:24:14,535 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:24:14,654 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:48Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '70accc12-ac69-4d05-8b8f-0063129b2f78', 'recipient': {'accountDetails': {'phoneNumber': '250733456129', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:24:14,971 - app.utils.logger - WARNING - Payout ID not found in database: 70accc12-ac69-4d05-8b8f-0063129b2f78
+2026-05-24 01:24:18,928 - app.utils.logger - INFO - Payment check - Time: 01:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:24:19,004 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:24:20,272 - app.utils.logger - INFO - Payment check - Time: 01:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:24:20,280 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:24:49,064 - app.utils.logger - INFO - Payment check - Time: 01:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:24:49,114 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:24:50,289 - app.utils.logger - INFO - Payment check - Time: 01:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:24:50,296 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:24:58,056 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:25:19,382 - app.utils.logger - INFO - Payment check - Time: 01:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:25:19,400 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:25:20,313 - app.utils.logger - INFO - Payment check - Time: 01:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:25:20,337 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:25:27,623 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:25:49,545 - app.utils.logger - INFO - Payment check - Time: 01:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:25:49,891 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:25:50,559 - app.utils.logger - INFO - Payment check - Time: 01:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:25:50,634 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:26:20,154 - app.utils.logger - INFO - Payment check - Time: 01:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:26:20,212 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:26:20,713 - app.utils.logger - INFO - Payment check - Time: 01:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:26:20,719 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:26:50,286 - app.utils.logger - INFO - Payment check - Time: 01:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:26:50,379 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:26:50,734 - app.utils.logger - INFO - Payment check - Time: 01:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:26:50,761 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:27:20,573 - app.utils.logger - INFO - Payment check - Time: 01:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:27:20,691 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:27:20,868 - app.utils.logger - INFO - Payment check - Time: 01:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:27:20,922 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:27:50,737 - app.utils.logger - INFO - Payment check - Time: 01:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:27:50,834 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:27:51,297 - app.utils.logger - INFO - Payment check - Time: 01:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:27:51,357 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:28:20,968 - app.utils.logger - INFO - Payment check - Time: 01:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:28:21,428 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:28:21,855 - app.utils.logger - INFO - Payment check - Time: 01:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:28:22,843 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:28:52,076 - app.utils.logger - INFO - Payment check - Time: 01:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:28:52,179 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:28:53,508 - app.utils.logger - INFO - Payment check - Time: 01:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:28:53,519 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:29:22,278 - app.utils.logger - INFO - Payment check - Time: 01:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:29:22,313 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:29:23,535 - app.utils.logger - INFO - Payment check - Time: 01:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:29:23,537 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:29:52,407 - app.utils.logger - INFO - Payment check - Time: 01:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:29:52,474 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:29:53,557 - app.utils.logger - INFO - Payment check - Time: 01:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:29:53,565 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:29:58,341 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:30:22,580 - app.utils.logger - INFO - Payment check - Time: 01:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:30:22,590 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:30:23,575 - app.utils.logger - INFO - Payment check - Time: 01:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:30:23,581 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:30:28,457 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:30:52,598 - app.utils.logger - INFO - Payment check - Time: 01:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:30:52,659 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:30:53,660 - app.utils.logger - INFO - Payment check - Time: 01:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:30:53,783 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:31:22,714 - app.utils.logger - INFO - Payment check - Time: 01:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:31:22,716 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:31:23,862 - app.utils.logger - INFO - Payment check - Time: 01:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:31:23,885 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:31:52,741 - app.utils.logger - INFO - Payment check - Time: 01:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:31:52,743 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:31:53,900 - app.utils.logger - INFO - Payment check - Time: 01:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:31:53,915 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:32:22,831 - app.utils.logger - INFO - Payment check - Time: 01:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:32:22,869 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:32:23,948 - app.utils.logger - INFO - Payment check - Time: 01:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:32:23,983 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:32:52,905 - app.utils.logger - INFO - Payment check - Time: 01:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:32:52,925 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:32:54,000 - app.utils.logger - INFO - Payment check - Time: 01:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:32:54,020 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:33:23,021 - app.utils.logger - INFO - Payment check - Time: 01:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:33:23,552 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:33:24,115 - app.utils.logger - INFO - Payment check - Time: 01:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:33:24,400 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:33:53,816 - app.utils.logger - INFO - Payment check - Time: 01:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:33:53,897 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:33:54,711 - app.utils.logger - INFO - Payment check - Time: 01:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:33:54,807 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:34:24,013 - app.utils.logger - INFO - Payment check - Time: 01:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:34:24,017 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:34:24,860 - app.utils.logger - INFO - Payment check - Time: 01:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:34:24,863 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:34:54,009 - app.utils.logger - INFO - Payment check - Time: 01:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:34:54,013 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:34:54,881 - app.utils.logger - INFO - Payment check - Time: 01:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:34:54,931 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:35:01,847 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:35:24,025 - app.utils.logger - INFO - Payment check - Time: 01:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:35:24,034 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:35:24,992 - app.utils.logger - INFO - Payment check - Time: 01:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:35:24,997 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:35:28,755 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:35:54,057 - app.utils.logger - INFO - Payment check - Time: 01:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:35:54,116 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:35:54,998 - app.utils.logger - INFO - Payment check - Time: 01:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:35:55,009 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:36:24,204 - app.utils.logger - INFO - Payment check - Time: 01:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:36:24,231 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:36:25,116 - app.utils.logger - INFO - Payment check - Time: 01:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:36:25,233 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:36:54,303 - app.utils.logger - INFO - Payment check - Time: 01:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:36:54,372 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:36:55,311 - app.utils.logger - INFO - Payment check - Time: 01:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:36:55,354 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:37:24,506 - app.utils.logger - INFO - Payment check - Time: 01:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:37:24,965 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:37:25,700 - app.utils.logger - INFO - Payment check - Time: 01:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:37:26,047 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:37:55,630 - app.utils.logger - INFO - Payment check - Time: 01:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:37:55,737 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:37:56,632 - app.utils.logger - INFO - Payment check - Time: 01:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:37:56,644 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:38:26,029 - app.utils.logger - INFO - Payment check - Time: 01:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:38:26,143 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:38:26,710 - app.utils.logger - INFO - Payment check - Time: 01:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:38:27,102 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:38:56,376 - app.utils.logger - INFO - Payment check - Time: 01:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:38:56,478 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:38:57,667 - app.utils.logger - INFO - Payment check - Time: 01:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:38:58,037 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:39:09,632 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:39:09,640 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:38Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': 'b4e4ede8-33e1-4c46-9a68-39c7014ad8ac', 'recipient': {'accountDetails': {'phoneNumber': '250733456089', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:39:15,547 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:39:15,563 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:43Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '5c0df860-c5e8-42f6-8bf3-3910ce27def3', 'recipient': {'accountDetails': {'phoneNumber': '250733456789', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:39:18,335 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:39:18,343 - app.utils.logger - WARNING - Payout ID not found in database: b4e4ede8-33e1-4c46-9a68-39c7014ad8ac
+2026-05-24 01:39:19,670 - app.utils.logger - INFO - Webhook received
+2026-05-24 01:39:19,767 - app.utils.logger - INFO - Webhook data: {'amount': '1000.00', 'country': 'RWA', 'created': '2026-05-23T22:39:48Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'failureReason': {'failureCode': 'PAWAPAY_WALLET_OUT_OF_FUNDS', 'failureMessage': 'Your pawaPay wallet does not have enough funds for this payment. Please top up your wallet.'}, 'payoutId': '70accc12-ac69-4d05-8b8f-0063129b2f78', 'recipient': {'accountDetails': {'phoneNumber': '250733456129', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'FAILED'}
+2026-05-24 01:39:20,029 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:39:20,120 - app.utils.logger - WARNING - Payout ID not found in database: 70accc12-ac69-4d05-8b8f-0063129b2f78
+2026-05-24 01:39:23,698 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:39:23,700 - app.utils.logger - WARNING - Payout ID not found in database: 5c0df860-c5e8-42f6-8bf3-3910ce27def3
+2026-05-24 01:39:26,527 - app.utils.logger - INFO - Payment check - Time: 01:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:39:26,603 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:39:28,260 - app.utils.logger - INFO - Payment check - Time: 01:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:39:28,264 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:39:56,935 - app.utils.logger - INFO - Payment check - Time: 01:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:39:57,031 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:39:58,278 - app.utils.logger - INFO - Payment check - Time: 01:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:39:58,281 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:40:05,345 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:40:05,600 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:40:27,044 - app.utils.logger - INFO - Payment check - Time: 01:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:40:27,051 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:40:28,298 - app.utils.logger - INFO - Payment check - Time: 01:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:40:28,402 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:40:29,094 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:40:29,323 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:40:57,050 - app.utils.logger - INFO - Payment check - Time: 01:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:40:57,052 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:40:58,605 - app.utils.logger - INFO - Payment check - Time: 01:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:40:58,687 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:41:27,050 - app.utils.logger - INFO - Payment check - Time: 01:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:41:27,057 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:41:28,728 - app.utils.logger - INFO - Payment check - Time: 01:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:41:28,735 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:41:57,081 - app.utils.logger - INFO - Payment check - Time: 01:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:41:57,105 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:41:58,750 - app.utils.logger - INFO - Payment check - Time: 01:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:41:58,751 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:42:27,127 - app.utils.logger - INFO - Payment check - Time: 01:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:42:27,174 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:42:28,762 - app.utils.logger - INFO - Payment check - Time: 01:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:42:28,774 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:42:57,241 - app.utils.logger - INFO - Payment check - Time: 01:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:42:57,278 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:42:58,803 - app.utils.logger - INFO - Payment check - Time: 01:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:42:58,813 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:43:27,359 - app.utils.logger - INFO - Payment check - Time: 01:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:43:27,424 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:43:28,856 - app.utils.logger - INFO - Payment check - Time: 01:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:43:28,886 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:43:57,512 - app.utils.logger - INFO - Payment check - Time: 01:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:43:57,515 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:43:58,988 - app.utils.logger - INFO - Payment check - Time: 01:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:43:59,068 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:44:27,532 - app.utils.logger - INFO - Payment check - Time: 01:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:44:27,616 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:44:29,131 - app.utils.logger - INFO - Payment check - Time: 01:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:44:29,150 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:44:57,666 - app.utils.logger - INFO - Payment check - Time: 01:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:44:57,674 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:44:59,259 - app.utils.logger - INFO - Payment check - Time: 01:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:44:59,295 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:45:05,599 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:45:09,246 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:45:27,702 - app.utils.logger - INFO - Payment check - Time: 01:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:45:27,797 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:45:29,312 - app.utils.logger - INFO - Payment check - Time: 01:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:45:29,322 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:45:29,328 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:45:29,532 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:45:57,871 - app.utils.logger - INFO - Payment check - Time: 01:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:45:57,982 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:45:59,336 - app.utils.logger - INFO - Payment check - Time: 01:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:45:59,370 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:46:28,026 - app.utils.logger - INFO - Payment check - Time: 01:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:46:28,116 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:46:29,413 - app.utils.logger - INFO - Payment check - Time: 01:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:46:29,426 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:46:58,188 - app.utils.logger - INFO - Payment check - Time: 01:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:46:58,254 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:46:59,461 - app.utils.logger - INFO - Payment check - Time: 01:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:46:59,464 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:47:28,484 - app.utils.logger - INFO - Payment check - Time: 01:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:47:28,765 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:47:29,693 - app.utils.logger - INFO - Payment check - Time: 01:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:47:30,284 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:47:59,117 - app.utils.logger - INFO - Payment check - Time: 01:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:47:59,173 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:48:00,778 - app.utils.logger - INFO - Payment check - Time: 01:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:48:00,863 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:48:29,213 - app.utils.logger - INFO - Payment check - Time: 01:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:48:29,217 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:48:30,938 - app.utils.logger - INFO - Payment check - Time: 01:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:48:30,950 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:48:59,216 - app.utils.logger - INFO - Payment check - Time: 01:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:48:59,219 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:49:01,011 - app.utils.logger - INFO - Payment check - Time: 01:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:49:01,307 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:49:29,253 - app.utils.logger - INFO - Payment check - Time: 01:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:49:29,321 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:49:31,363 - app.utils.logger - INFO - Payment check - Time: 01:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:49:31,367 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:49:59,397 - app.utils.logger - INFO - Payment check - Time: 01:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:49:59,405 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:50:01,382 - app.utils.logger - INFO - Payment check - Time: 01:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:50:01,416 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:50:09,267 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:50:13,838 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:50:29,413 - app.utils.logger - INFO - Payment check - Time: 01:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:50:29,421 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:50:29,532 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:50:29,736 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:50:31,413 - app.utils.logger - INFO - Payment check - Time: 01:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:50:31,418 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:50:59,414 - app.utils.logger - INFO - Payment check - Time: 01:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:50:59,417 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:51:01,428 - app.utils.logger - INFO - Payment check - Time: 01:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:51:01,430 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:51:29,467 - app.utils.logger - INFO - Payment check - Time: 01:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:51:29,509 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:51:31,457 - app.utils.logger - INFO - Payment check - Time: 01:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:51:31,573 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:51:59,667 - app.utils.logger - INFO - Payment check - Time: 01:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:51:59,679 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:52:01,664 - app.utils.logger - INFO - Payment check - Time: 01:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:52:01,674 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:52:29,711 - app.utils.logger - INFO - Payment check - Time: 01:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:52:29,758 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:52:31,677 - app.utils.logger - INFO - Payment check - Time: 01:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:52:31,701 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:52:59,790 - app.utils.logger - INFO - Payment check - Time: 01:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:52:59,897 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:53:01,751 - app.utils.logger - INFO - Payment check - Time: 01:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:53:01,767 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:53:30,043 - app.utils.logger - INFO - Payment check - Time: 01:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:53:30,049 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:53:31,781 - app.utils.logger - INFO - Payment check - Time: 01:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:53:31,789 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:54:00,084 - app.utils.logger - INFO - Payment check - Time: 01:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:54:00,117 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:54:01,826 - app.utils.logger - INFO - Payment check - Time: 01:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:54:01,899 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:54:30,128 - app.utils.logger - INFO - Payment check - Time: 01:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:54:30,140 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:54:31,917 - app.utils.logger - INFO - Payment check - Time: 01:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:54:31,945 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:55:00,147 - app.utils.logger - INFO - Payment check - Time: 01:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:55:00,150 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:55:01,988 - app.utils.logger - INFO - Payment check - Time: 01:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:55:02,008 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:55:13,847 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:55:17,401 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:55:29,757 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 01:55:30,043 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 01:55:30,167 - app.utils.logger - INFO - Payment check - Time: 01:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:55:30,170 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:55:32,103 - app.utils.logger - INFO - Payment check - Time: 01:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:55:32,282 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:56:00,183 - app.utils.logger - INFO - Payment check - Time: 01:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:56:00,207 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:56:02,351 - app.utils.logger - INFO - Payment check - Time: 01:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:56:02,436 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:56:30,260 - app.utils.logger - INFO - Payment check - Time: 01:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:56:30,268 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:56:32,478 - app.utils.logger - INFO - Payment check - Time: 01:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:56:32,508 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:57:00,302 - app.utils.logger - INFO - Payment check - Time: 01:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:57:00,309 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:57:02,524 - app.utils.logger - INFO - Payment check - Time: 01:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:57:02,535 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:57:30,427 - app.utils.logger - INFO - Payment check - Time: 01:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:57:30,888 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:57:32,564 - app.utils.logger - INFO - Payment check - Time: 01:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:57:32,796 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:58:00,982 - app.utils.logger - INFO - Payment check - Time: 01:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:58:01,011 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:58:03,015 - app.utils.logger - INFO - Payment check - Time: 01:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:58:03,022 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:58:31,053 - app.utils.logger - INFO - Payment check - Time: 01:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:58:31,175 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:58:33,030 - app.utils.logger - INFO - Payment check - Time: 01:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:58:33,141 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:59:01,243 - app.utils.logger - INFO - Payment check - Time: 01:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:59:01,247 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:59:03,163 - app.utils.logger - INFO - Payment check - Time: 01:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:59:03,249 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:59:31,264 - app.utils.logger - INFO - Payment check - Time: 01:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:59:31,273 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 01:59:33,344 - app.utils.logger - INFO - Payment check - Time: 01:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 01:59:33,388 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:00:01,412 - app.utils.logger - INFO - Payment check - Time: 02:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:00:01,496 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:00:03,432 - app.utils.logger - INFO - Payment check - Time: 02:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:00:03,439 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:00:17,425 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:00:20,903 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:00:30,131 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:00:30,439 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:00:31,596 - app.utils.logger - INFO - Payment check - Time: 02:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:00:31,629 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:00:33,458 - app.utils.logger - INFO - Payment check - Time: 02:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:00:33,518 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:01:01,672 - app.utils.logger - INFO - Payment check - Time: 02:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:01:01,680 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:01:03,652 - app.utils.logger - INFO - Payment check - Time: 02:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:01:03,782 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:01:31,712 - app.utils.logger - INFO - Payment check - Time: 02:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:01:31,767 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:01:33,901 - app.utils.logger - INFO - Payment check - Time: 02:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:01:33,918 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:02:01,934 - app.utils.logger - INFO - Payment check - Time: 02:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:02:02,040 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:02:03,982 - app.utils.logger - INFO - Payment check - Time: 02:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:02:04,113 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:02:32,153 - app.utils.logger - INFO - Payment check - Time: 02:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:02:32,162 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:02:34,224 - app.utils.logger - INFO - Payment check - Time: 02:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:02:34,232 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:03:02,163 - app.utils.logger - INFO - Payment check - Time: 02:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:03:02,183 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:03:04,249 - app.utils.logger - INFO - Payment check - Time: 02:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:03:04,252 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:03:32,213 - app.utils.logger - INFO - Payment check - Time: 02:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:03:32,220 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:03:34,258 - app.utils.logger - INFO - Payment check - Time: 02:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:03:34,278 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:04:02,701 - app.utils.logger - INFO - Payment check - Time: 02:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:04:03,977 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:04:04,426 - app.utils.logger - INFO - Payment check - Time: 02:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:04:04,510 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:04:34,156 - app.utils.logger - INFO - Payment check - Time: 02:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:04:34,170 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:04:34,608 - app.utils.logger - INFO - Payment check - Time: 02:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:04:34,656 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:05:04,179 - app.utils.logger - INFO - Payment check - Time: 02:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:05:04,267 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:05:04,817 - app.utils.logger - INFO - Payment check - Time: 02:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:05:04,858 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:05:20,950 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:05:24,116 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:05:30,465 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:05:30,681 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:05:34,328 - app.utils.logger - INFO - Payment check - Time: 02:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:05:34,364 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:05:34,904 - app.utils.logger - INFO - Payment check - Time: 02:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:05:34,907 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:06:04,374 - app.utils.logger - INFO - Payment check - Time: 02:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:06:04,398 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:06:04,972 - app.utils.logger - INFO - Payment check - Time: 02:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:06:05,032 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:06:34,520 - app.utils.logger - INFO - Payment check - Time: 02:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:06:34,627 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:06:35,076 - app.utils.logger - INFO - Payment check - Time: 02:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:06:35,085 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:07:04,764 - app.utils.logger - INFO - Payment check - Time: 02:07, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:07:04,767 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:07:05,100 - app.utils.logger - INFO - Payment check - Time: 02:07, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:07:05,105 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:07:34,766 - app.utils.logger - INFO - Payment check - Time: 02:07, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:07:34,777 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:07:35,118 - app.utils.logger - INFO - Payment check - Time: 02:07, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:07:35,142 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:08:04,777 - app.utils.logger - INFO - Payment check - Time: 02:08, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:08:04,781 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:08:05,154 - app.utils.logger - INFO - Payment check - Time: 02:08, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:08:05,214 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:08:34,845 - app.utils.logger - INFO - Payment check - Time: 02:08, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:08:34,885 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:08:35,266 - app.utils.logger - INFO - Payment check - Time: 02:08, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:08:35,268 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:09:04,915 - app.utils.logger - INFO - Payment check - Time: 02:09, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:09:04,939 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:09:05,317 - app.utils.logger - INFO - Payment check - Time: 02:09, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:09:05,378 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:09:35,005 - app.utils.logger - INFO - Payment check - Time: 02:09, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:09:35,042 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:09:35,533 - app.utils.logger - INFO - Payment check - Time: 02:09, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:09:35,581 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:10:05,076 - app.utils.logger - INFO - Payment check - Time: 02:10, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:10:05,116 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:10:05,652 - app.utils.logger - INFO - Payment check - Time: 02:10, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:10:05,724 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:10:24,123 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:10:29,709 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:10:30,708 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:10:31,006 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:10:35,161 - app.utils.logger - INFO - Payment check - Time: 02:10, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:10:35,209 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:10:35,774 - app.utils.logger - INFO - Payment check - Time: 02:10, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:10:35,786 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:11:05,248 - app.utils.logger - INFO - Payment check - Time: 02:11, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:11:05,487 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:11:05,860 - app.utils.logger - INFO - Payment check - Time: 02:11, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:11:06,165 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:11:35,817 - app.utils.logger - INFO - Payment check - Time: 02:11, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:11:36,110 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:11:36,277 - app.utils.logger - INFO - Payment check - Time: 02:11, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:11:36,538 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:12:06,284 - app.utils.logger - INFO - Payment check - Time: 02:12, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:12:06,288 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:12:06,885 - app.utils.logger - INFO - Payment check - Time: 02:12, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:12:06,975 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:12:36,641 - app.utils.logger - INFO - Payment check - Time: 02:12, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:12:36,848 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:12:37,115 - app.utils.logger - INFO - Payment check - Time: 02:12, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:12:37,192 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:13:07,134 - app.utils.logger - INFO - Payment check - Time: 02:13, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:13:07,193 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:13:07,242 - app.utils.logger - INFO - Payment check - Time: 02:13, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:13:07,249 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:13:37,273 - app.utils.logger - INFO - Payment check - Time: 02:13, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:13:37,412 - app.utils.logger - INFO - Payment check - Time: 02:13, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:13:37,495 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:13:37,640 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:14:07,710 - app.utils.logger - INFO - Payment check - Time: 02:14, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:14:07,757 - app.utils.logger - INFO - Payment check - Time: 02:14, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:14:07,935 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:14:08,146 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:14:38,405 - app.utils.logger - INFO - Payment check - Time: 02:14, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:14:38,467 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:14:38,578 - app.utils.logger - INFO - Payment check - Time: 02:14, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:14:38,612 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:15:08,549 - app.utils.logger - INFO - Payment check - Time: 02:15, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:15:08,610 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:15:08,633 - app.utils.logger - INFO - Payment check - Time: 02:15, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:15:08,665 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:15:29,866 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:15:31,112 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:15:35,317 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:15:36,678 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:15:38,700 - app.utils.logger - INFO - Payment check - Time: 02:15, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:15:38,707 - app.utils.logger - INFO - Payment check - Time: 02:15, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:15:38,794 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:15:38,812 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:16:08,827 - app.utils.logger - INFO - Payment check - Time: 02:16, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:16:08,828 - app.utils.logger - INFO - Payment check - Time: 02:16, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:16:08,835 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:16:08,837 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:16:38,974 - app.utils.logger - INFO - Payment check - Time: 02:16, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:16:38,984 - app.utils.logger - INFO - Payment check - Time: 02:16, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:16:39,021 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:16:39,074 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:17:09,319 - app.utils.logger - INFO - Payment check - Time: 02:17, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:17:09,380 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:17:10,463 - app.utils.logger - INFO - Payment check - Time: 02:17, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:17:10,504 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:17:39,452 - app.utils.logger - INFO - Payment check - Time: 02:17, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:17:39,455 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:17:40,515 - app.utils.logger - INFO - Payment check - Time: 02:17, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:17:40,526 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:18:09,574 - app.utils.logger - INFO - Payment check - Time: 02:18, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:18:09,684 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:18:10,582 - app.utils.logger - INFO - Payment check - Time: 02:18, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:18:10,608 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:18:39,767 - app.utils.logger - INFO - Payment check - Time: 02:18, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:18:39,775 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:18:40,674 - app.utils.logger - INFO - Payment check - Time: 02:18, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:18:40,765 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:19:09,854 - app.utils.logger - INFO - Payment check - Time: 02:19, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:19:10,365 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:19:10,819 - app.utils.logger - INFO - Payment check - Time: 02:19, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:19:10,907 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:19:40,502 - app.utils.logger - INFO - Payment check - Time: 02:19, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:19:40,594 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:19:41,003 - app.utils.logger - INFO - Payment check - Time: 02:19, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:19:41,100 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:20:10,702 - app.utils.logger - INFO - Payment check - Time: 02:20, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:20:10,791 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:20:11,211 - app.utils.logger - INFO - Payment check - Time: 02:20, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:20:11,356 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:20:35,382 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:20:36,779 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:20:39,291 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:20:40,966 - app.utils.logger - INFO - Payment check - Time: 02:20, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:20:40,974 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:20:41,141 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:20:41,582 - app.utils.logger - INFO - Payment check - Time: 02:20, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:20:41,600 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:21:11,002 - app.utils.logger - INFO - Payment check - Time: 02:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:21:11,005 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:21:11,618 - app.utils.logger - INFO - Payment check - Time: 02:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:21:11,620 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:21:41,024 - app.utils.logger - INFO - Payment check - Time: 02:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:21:41,051 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:21:41,619 - app.utils.logger - INFO - Payment check - Time: 02:21, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:21:41,626 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:22:11,076 - app.utils.logger - INFO - Payment check - Time: 02:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:22:11,123 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:22:11,666 - app.utils.logger - INFO - Payment check - Time: 02:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:22:11,678 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:22:41,204 - app.utils.logger - INFO - Payment check - Time: 02:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:22:41,263 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:22:41,688 - app.utils.logger - INFO - Payment check - Time: 02:22, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:22:41,690 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:23:11,305 - app.utils.logger - INFO - Payment check - Time: 02:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:23:11,313 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:23:11,703 - app.utils.logger - INFO - Payment check - Time: 02:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:23:11,711 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:23:41,318 - app.utils.logger - INFO - Payment check - Time: 02:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:23:41,320 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:23:41,719 - app.utils.logger - INFO - Payment check - Time: 02:23, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:23:41,727 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:24:11,337 - app.utils.logger - INFO - Payment check - Time: 02:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:24:11,370 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:24:11,791 - app.utils.logger - INFO - Payment check - Time: 02:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:24:11,854 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:24:41,416 - app.utils.logger - INFO - Payment check - Time: 02:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:24:41,502 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:24:41,914 - app.utils.logger - INFO - Payment check - Time: 02:24, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:24:41,916 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:25:11,595 - app.utils.logger - INFO - Payment check - Time: 02:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:25:11,623 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:25:11,919 - app.utils.logger - INFO - Payment check - Time: 02:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:25:11,938 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:25:39,331 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:25:41,149 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:25:41,663 - app.utils.logger - INFO - Payment check - Time: 02:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:25:41,830 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:25:41,995 - app.utils.logger - INFO - Payment check - Time: 02:25, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:25:42,100 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:25:44,631 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:25:46,353 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:26:11,959 - app.utils.logger - INFO - Payment check - Time: 02:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:26:11,961 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:26:12,202 - app.utils.logger - INFO - Payment check - Time: 02:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:26:12,210 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:26:42,940 - app.utils.logger - INFO - Payment check - Time: 02:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:26:42,944 - app.utils.logger - INFO - Payment check - Time: 02:26, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:26:43,684 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:26:44,164 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:27:14,435 - app.utils.logger - INFO - Payment check - Time: 02:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:27:14,436 - app.utils.logger - INFO - Payment check - Time: 02:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:27:14,443 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:27:14,445 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:27:44,452 - app.utils.logger - INFO - Payment check - Time: 02:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:27:44,453 - app.utils.logger - INFO - Payment check - Time: 02:27, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:27:44,465 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:27:44,470 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:28:14,512 - app.utils.logger - INFO - Payment check - Time: 02:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:28:14,512 - app.utils.logger - INFO - Payment check - Time: 02:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:28:14,562 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:28:14,647 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:28:44,718 - app.utils.logger - INFO - Payment check - Time: 02:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:28:44,720 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:28:44,784 - app.utils.logger - INFO - Payment check - Time: 02:28, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:28:44,793 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:29:14,719 - app.utils.logger - INFO - Payment check - Time: 02:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:29:14,728 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:29:14,794 - app.utils.logger - INFO - Payment check - Time: 02:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:29:14,802 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:29:44,753 - app.utils.logger - INFO - Payment check - Time: 02:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:29:44,794 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:29:44,836 - app.utils.logger - INFO - Payment check - Time: 02:29, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:29:45,000 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:30:14,851 - app.utils.logger - INFO - Payment check - Time: 02:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:30:14,911 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:30:15,172 - app.utils.logger - INFO - Payment check - Time: 02:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:30:15,200 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:30:44,640 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:30:45,000 - app.utils.logger - INFO - Payment check - Time: 02:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:30:45,074 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:30:45,239 - app.utils.logger - INFO - Payment check - Time: 02:30, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:30:45,335 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:30:46,377 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:30:47,841 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:30:49,777 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:31:15,200 - app.utils.logger - INFO - Payment check - Time: 02:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:31:15,264 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:31:15,477 - app.utils.logger - INFO - Payment check - Time: 02:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:31:15,656 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:31:45,497 - app.utils.logger - INFO - Payment check - Time: 02:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:31:45,648 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:31:45,698 - app.utils.logger - INFO - Payment check - Time: 02:31, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:31:45,798 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:32:15,762 - app.utils.logger - INFO - Payment check - Time: 02:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:32:15,764 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:32:15,876 - app.utils.logger - INFO - Payment check - Time: 02:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:32:15,908 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:32:45,869 - app.utils.logger - INFO - Payment check - Time: 02:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:32:45,876 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:32:45,954 - app.utils.logger - INFO - Payment check - Time: 02:32, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:32:45,964 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:33:15,895 - app.utils.logger - INFO - Payment check - Time: 02:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:33:15,961 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:33:15,984 - app.utils.logger - INFO - Payment check - Time: 02:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:33:16,211 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:33:46,085 - app.utils.logger - INFO - Payment check - Time: 02:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:33:46,093 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:33:46,246 - app.utils.logger - INFO - Payment check - Time: 02:33, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:33:46,252 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:34:16,109 - app.utils.logger - INFO - Payment check - Time: 02:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:34:16,173 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:34:16,271 - app.utils.logger - INFO - Payment check - Time: 02:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:34:16,316 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:34:46,230 - app.utils.logger - INFO - Payment check - Time: 02:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:34:46,257 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:34:46,369 - app.utils.logger - INFO - Payment check - Time: 02:34, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:34:46,375 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:35:16,313 - app.utils.logger - INFO - Payment check - Time: 02:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:35:16,325 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:35:16,372 - app.utils.logger - INFO - Payment check - Time: 02:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:35:16,374 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:35:46,499 - app.utils.logger - INFO - Payment check - Time: 02:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:35:46,520 - app.utils.logger - INFO - Payment check - Time: 02:35, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:35:46,730 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:35:46,864 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:35:47,866 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:35:50,017 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:35:53,182 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:35:54,357 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:36:16,909 - app.utils.logger - INFO - Payment check - Time: 02:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:36:16,910 - app.utils.logger - INFO - Payment check - Time: 02:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:36:16,986 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:36:17,071 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:36:47,153 - app.utils.logger - INFO - Payment check - Time: 02:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:36:47,180 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:36:47,255 - app.utils.logger - INFO - Payment check - Time: 02:36, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:36:47,276 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:37:17,238 - app.utils.logger - INFO - Payment check - Time: 02:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:37:17,244 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:37:17,304 - app.utils.logger - INFO - Payment check - Time: 02:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:37:17,307 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:37:47,248 - app.utils.logger - INFO - Payment check - Time: 02:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:37:47,284 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:37:47,314 - app.utils.logger - INFO - Payment check - Time: 02:37, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:37:47,332 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:38:17,295 - app.utils.logger - INFO - Payment check - Time: 02:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:38:17,299 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:38:17,367 - app.utils.logger - INFO - Payment check - Time: 02:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:38:17,377 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:38:47,342 - app.utils.logger - INFO - Payment check - Time: 02:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:38:47,401 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:38:47,404 - app.utils.logger - INFO - Payment check - Time: 02:38, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:38:47,470 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:39:17,638 - app.utils.logger - INFO - Payment check - Time: 02:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:39:17,639 - app.utils.logger - INFO - Payment check - Time: 02:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:39:17,683 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:39:17,690 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:39:37,036 - app.utils.logger - ERROR - Verify error: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:39:37,152 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:39:44,902 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-24 02:39:45,165 - app.utils.logger - ERROR - Login error: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:39:47,705 - app.utils.logger - INFO - Payment check - Time: 02:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:39:47,705 - app.utils.logger - INFO - Payment check - Time: 02:39, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:39:47,711 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:39:47,717 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:40:17,720 - app.utils.logger - INFO - Payment check - Time: 02:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:40:17,723 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:40:17,735 - app.utils.logger - INFO - Payment check - Time: 02:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:40:17,749 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:40:47,802 - app.utils.logger - INFO - Payment check - Time: 02:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:40:47,803 - app.utils.logger - INFO - Payment check - Time: 02:40, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:40:47,825 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:40:47,834 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:40:53,172 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:40:53,390 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:40:54,384 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:40:54,591 - app.utils.logger - ERROR - Error getting employees: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2026-05-24 02:41:17,906 - app.utils.logger - INFO - Payment check - Time: 02:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:41:17,917 - app.utils.logger - INFO - Payment check - Time: 02:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:41:18,081 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:41:18,233 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:41:48,373 - app.utils.logger - INFO - Payment check - Time: 02:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:41:48,373 - app.utils.logger - INFO - Payment check - Time: 02:41, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:41:48,941 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:41:49,250 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:42:19,623 - app.utils.logger - INFO - Payment check - Time: 02:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:42:19,744 - app.utils.logger - INFO - Payment check - Time: 02:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:42:19,764 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:42:19,897 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:42:49,929 - app.utils.logger - INFO - Payment check - Time: 02:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:42:50,012 - app.utils.logger - INFO - Payment check - Time: 02:42, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:42:50,048 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:42:50,111 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:43:20,276 - app.utils.logger - INFO - Payment check - Time: 02:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:43:20,277 - app.utils.logger - INFO - Payment check - Time: 02:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:43:20,337 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:43:20,352 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:43:50,455 - app.utils.logger - INFO - Payment check - Time: 02:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:43:50,477 - app.utils.logger - INFO - Payment check - Time: 02:43, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:43:50,510 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:43:50,511 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:44:20,539 - app.utils.logger - INFO - Payment check - Time: 02:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:44:20,539 - app.utils.logger - INFO - Payment check - Time: 02:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:44:20,560 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:44:20,561 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:44:50,631 - app.utils.logger - INFO - Payment check - Time: 02:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:44:50,632 - app.utils.logger - INFO - Payment check - Time: 02:44, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:44:50,796 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:44:50,891 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:44:57,604 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-24 02:45:13,215 - app.utils.logger - INFO - Firebase credentials loaded from file: serviceAccountKey.json
+2026-05-24 02:45:13,218 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-24 02:45:19,893 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '01:14', 'paymentTime': '00:44', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-24 02:45:19,895 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-24 02:45:19,954 - app.utils.logger - INFO - All blueprints registered
+2026-05-24 02:45:19,975 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 02:45:20,010 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 02:45:20,045 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 02:45:20,063 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 02:45:20,066 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: None
+2026-05-24 02:45:20,083 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 02:45:20,083 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 02:45:20,087 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 02:45:20,102 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:45:20,103 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 02:45:20,195 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 02:45:21,434 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-24 02:45:21,436 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 02:45:25,701 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=4
+2026-05-24 02:45:26,583 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-24 02:45:26,584 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 02:45:26,586 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 02:45:26,587 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: None
+2026-05-24 02:45:26,588 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 02:45:26,857 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=4
+2026-05-24 02:45:26,858 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 02:45:26,860 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 02:45:26,865 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 02:45:26,867 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 02:45:26,869 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 02:45:26,872 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: None
+2026-05-24 02:45:26,881 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 02:45:26,882 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 02:45:26,882 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 02:45:26,897 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:45:26,898 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 02:45:26,905 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 02:45:27,154 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=4
+2026-05-24 02:45:28,202 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-24 02:45:28,204 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 02:45:28,276 - app.utils.logger - INFO - Attendance reset for 4 employees
+2026-05-24 02:45:28,277 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 02:45:28,278 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 02:45:28,279 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: None
+2026-05-24 02:45:28,280 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 02:45:28,546 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=4
+2026-05-24 02:45:28,548 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 02:45:28,549 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-24 02:45:28,551 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-24 02:45:29,670 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-24 02:45:41,367 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-24 02:45:42,350 - app.utils.logger - INFO - User logged in successfully: topdvgroup@gmail.com
+2026-05-24 02:45:45,472 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:45:55,693 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:45:55,699 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:45:57,158 - app.utils.logger - INFO - Payment check - Time: 02:45, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:45:57,188 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:46:17,648 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:46:25,718 - app.utils.logger - INFO - Payment check - Time: 02:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:46:25,728 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:46:27,285 - app.utils.logger - INFO - Payment check - Time: 02:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:46:27,486 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:46:53,931 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:46:55,736 - app.utils.logger - INFO - Payment check - Time: 02:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:46:55,739 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:46:57,719 - app.utils.logger - INFO - Payment check - Time: 02:46, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:46:57,728 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:47:17,111 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:47:25,760 - app.utils.logger - INFO - Payment check - Time: 02:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:47:25,787 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:47:27,743 - app.utils.logger - INFO - Payment check - Time: 02:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:47:27,804 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:47:55,868 - app.utils.logger - INFO - Payment check - Time: 02:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:47:56,041 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:47:57,087 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:47:57,887 - app.utils.logger - INFO - Payment check - Time: 02:47, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:47:57,947 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:48:18,183 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:48:26,192 - app.utils.logger - INFO - Payment check - Time: 02:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:48:26,209 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:48:28,253 - app.utils.logger - INFO - Payment check - Time: 02:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:48:28,467 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:48:49,133 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:48:56,740 - app.utils.logger - INFO - Payment check - Time: 02:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:48:57,279 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:48:58,716 - app.utils.logger - INFO - Payment check - Time: 02:48, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:48:58,826 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:49:27,496 - app.utils.logger - INFO - Payment check - Time: 02:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:49:27,554 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:49:28,939 - app.utils.logger - INFO - Payment check - Time: 02:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:49:28,956 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:49:57,262 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:49:57,611 - app.utils.logger - INFO - Payment check - Time: 02:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:49:57,618 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:49:59,016 - app.utils.logger - INFO - Payment check - Time: 02:49, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:49:59,107 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:50:25,809 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:50:27,222 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:50:27,638 - app.utils.logger - INFO - Payment check - Time: 02:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:50:27,644 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:50:29,180 - app.utils.logger - INFO - Payment check - Time: 02:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:50:29,197 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:50:56,995 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:50:57,663 - app.utils.logger - INFO - Payment check - Time: 02:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:50:57,677 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:50:59,242 - app.utils.logger - INFO - Payment check - Time: 02:50, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:50:59,245 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:51:27,681 - app.utils.logger - INFO - Payment check - Time: 02:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:51:27,683 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:51:29,272 - app.utils.logger - INFO - Payment check - Time: 02:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:51:29,303 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:51:57,706 - app.utils.logger - INFO - Payment check - Time: 02:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:51:57,711 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:51:57,827 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:51:59,632 - app.utils.logger - INFO - Payment check - Time: 02:51, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:52:00,101 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:52:27,721 - app.utils.logger - INFO - Payment check - Time: 02:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:52:27,723 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:52:30,449 - app.utils.logger - INFO - Payment check - Time: 02:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:52:30,554 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:52:57,737 - app.utils.logger - INFO - Payment check - Time: 02:52, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:52:57,744 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:52:58,343 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:53:02,461 - app.utils.logger - INFO - Payment check - Time: 02:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:53:03,322 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:53:19,218 - app.utils.logger - INFO - Retrieved 4 employees
+2026-05-24 02:53:27,775 - app.utils.logger - INFO - Payment check - Time: 02:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:53:27,834 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:53:33,432 - app.utils.logger - INFO - Payment check - Time: 02:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:53:33,456 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:53:57,853 - app.utils.logger - INFO - Payment check - Time: 02:53, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:53:57,855 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:54:03,530 - app.utils.logger - INFO - Payment check - Time: 02:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:54:03,624 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:54:27,854 - app.utils.logger - INFO - Payment check - Time: 02:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:54:27,858 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:54:33,681 - app.utils.logger - INFO - Payment check - Time: 02:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:54:33,723 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:54:57,860 - app.utils.logger - INFO - Payment check - Time: 02:54, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:54:57,866 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:55:03,755 - app.utils.logger - INFO - Payment check - Time: 02:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:55:03,761 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:55:26,146 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:55:27,628 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 02:55:28,493 - app.utils.logger - INFO - Payment check - Time: 02:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:55:29,835 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:55:33,773 - app.utils.logger - INFO - Payment check - Time: 02:55, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:55:33,792 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:56:00,262 - app.utils.logger - INFO - Payment check - Time: 02:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:56:00,271 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:56:03,805 - app.utils.logger - INFO - Payment check - Time: 02:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:56:03,808 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:56:30,288 - app.utils.logger - INFO - Payment check - Time: 02:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:56:30,295 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:56:33,954 - app.utils.logger - INFO - Payment check - Time: 02:56, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:56:34,137 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:57:00,336 - app.utils.logger - INFO - Payment check - Time: 02:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:57:00,385 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:57:04,213 - app.utils.logger - INFO - Payment check - Time: 02:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:57:04,226 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:57:30,420 - app.utils.logger - INFO - Payment check - Time: 02:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:57:30,432 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:57:34,245 - app.utils.logger - INFO - Payment check - Time: 02:57, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:57:34,329 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:58:00,471 - app.utils.logger - INFO - Payment check - Time: 02:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:58:00,474 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:58:04,465 - app.utils.logger - INFO - Payment check - Time: 02:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:58:04,544 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:58:30,477 - app.utils.logger - INFO - Payment check - Time: 02:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:58:30,480 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:58:34,660 - app.utils.logger - INFO - Payment check - Time: 02:58, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:58:34,667 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:59:00,486 - app.utils.logger - INFO - Payment check - Time: 02:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:59:00,493 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:59:04,674 - app.utils.logger - INFO - Payment check - Time: 02:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:59:04,677 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:59:30,508 - app.utils.logger - INFO - Payment check - Time: 02:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:59:30,582 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 02:59:34,687 - app.utils.logger - INFO - Payment check - Time: 02:59, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 02:59:34,689 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:00:00,605 - app.utils.logger - INFO - Payment check - Time: 03:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:00:00,608 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:00:04,689 - app.utils.logger - INFO - Payment check - Time: 03:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:00:04,692 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:00:30,658 - app.utils.logger - INFO - Payment check - Time: 03:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:00:30,705 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:00:34,647 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:00:34,758 - app.utils.logger - INFO - Payment check - Time: 03:00, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:00:34,842 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:00:34,853 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:01:00,755 - app.utils.logger - INFO - Payment check - Time: 03:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:01:00,758 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:01:05,120 - app.utils.logger - INFO - Payment check - Time: 03:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:01:05,130 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:01:30,883 - app.utils.logger - INFO - Payment check - Time: 03:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:01:31,369 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:01:35,126 - app.utils.logger - INFO - Payment check - Time: 03:01, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:01:35,131 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:02:01,548 - app.utils.logger - INFO - Payment check - Time: 03:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:02:01,655 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:02:05,235 - app.utils.logger - INFO - Payment check - Time: 03:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:02:05,383 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:02:32,464 - app.utils.logger - INFO - Payment check - Time: 03:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:02:32,870 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:02:35,601 - app.utils.logger - INFO - Payment check - Time: 03:02, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:02:35,818 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:03:03,189 - app.utils.logger - INFO - Payment check - Time: 03:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:03:03,194 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:03:06,157 - app.utils.logger - INFO - Payment check - Time: 03:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:03:06,996 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:03:33,226 - app.utils.logger - INFO - Payment check - Time: 03:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:03:33,284 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:03:37,139 - app.utils.logger - INFO - Payment check - Time: 03:03, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:03:37,141 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:04:03,338 - app.utils.logger - INFO - Payment check - Time: 03:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:04:03,341 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:04:07,155 - app.utils.logger - INFO - Payment check - Time: 03:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:04:07,203 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:04:33,379 - app.utils.logger - INFO - Payment check - Time: 03:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:04:33,503 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:04:37,205 - app.utils.logger - INFO - Payment check - Time: 03:04, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:04:37,207 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:05:03,566 - app.utils.logger - INFO - Payment check - Time: 03:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:05:03,675 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:05:07,264 - app.utils.logger - INFO - Payment check - Time: 03:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:05:07,320 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:05:34,612 - app.utils.logger - INFO - Payment check - Time: 03:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:05:34,726 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:05:37,582 - app.utils.logger - INFO - Payment check - Time: 03:05, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:05:37,782 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:05:40,423 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:05:40,512 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:06:05,125 - app.utils.logger - INFO - Payment check - Time: 03:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:06:05,766 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:06:07,875 - app.utils.logger - INFO - Payment check - Time: 03:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:06:08,033 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:06:36,459 - app.utils.logger - INFO - Payment check - Time: 03:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:06:36,499 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:06:38,225 - app.utils.logger - INFO - Payment check - Time: 03:06, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:06:38,402 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:07:06,621 - app.utils.logger - INFO - Payment check - Time: 03:07, Target: 00:44, Last payment date: 2026-05-24
+2026-05-24 03:07:07,513 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:07:07,838 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-24 03:23:20,154 - app.utils.logger - INFO - Firebase credentials loaded from file: serviceAccountKey.json
+2026-05-24 03:23:20,157 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-24 03:23:26,555 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '13:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-24 03:23:26,558 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-24 03:23:26,753 - app.utils.logger - INFO - All blueprints registered
+2026-05-24 03:23:27,051 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:23:27,254 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:23:27,770 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:23:27,875 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:23:28,024 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:23:28,024 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:23:28,028 - app.utils.logger - INFO - Payment check - Time: 03:23, Target: 13:30, Last payment date: None
+2026-05-24 03:23:28,087 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:23:28,141 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 03:23:28,228 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:23:28,347 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:23:32,975 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:23:32,994 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:23:33,000 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:23:33,001 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:23:33,002 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:23:33,013 - app.utils.logger - INFO - Payment check - Time: 03:23, Target: 13:30, Last payment date: None
+2026-05-24 03:23:33,016 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:23:33,017 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:23:33,018 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:23:33,019 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:23:33,019 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 03:23:33,028 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:23:36,433 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:23:36,435 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-24 03:23:36,435 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-24 03:23:37,819 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-24 03:23:58,241 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:23:58,369 - app.utils.logger - INFO - Payment check - Time: 03:23, Target: 13:30, Last payment date: None
+2026-05-24 03:23:58,585 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:24:03,018 - app.utils.logger - INFO - Payment check - Time: 03:24, Target: 13:30, Last payment date: None
+2026-05-24 03:24:03,058 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:24:03,297 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:24:28,620 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:24:28,782 - app.utils.logger - INFO - Payment check - Time: 03:24, Target: 13:30, Last payment date: None
+2026-05-24 03:24:28,907 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:24:33,139 - app.utils.logger - INFO - Payment check - Time: 03:24, Target: 13:30, Last payment date: None
+2026-05-24 03:24:33,141 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:24:33,652 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:24:58,972 - app.utils.logger - INFO - Payment check - Time: 03:24, Target: 13:30, Last payment date: None
+2026-05-24 03:24:58,987 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:24:59,157 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:25:03,148 - app.utils.logger - INFO - Payment check - Time: 03:25, Target: 13:30, Last payment date: None
+2026-05-24 03:25:03,152 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:25:03,979 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:25:29,011 - app.utils.logger - INFO - Payment check - Time: 03:25, Target: 13:30, Last payment date: None
+2026-05-24 03:25:29,016 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:25:29,439 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:25:33,157 - app.utils.logger - INFO - Payment check - Time: 03:25, Target: 13:30, Last payment date: None
+2026-05-24 03:25:33,163 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:25:34,273 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:25:59,082 - app.utils.logger - INFO - Payment check - Time: 03:25, Target: 13:30, Last payment date: None
+2026-05-24 03:25:59,126 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:25:59,728 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:26:03,162 - app.utils.logger - INFO - Payment check - Time: 03:26, Target: 13:30, Last payment date: None
+2026-05-24 03:26:03,191 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:26:04,557 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:26:29,144 - app.utils.logger - INFO - Payment check - Time: 03:26, Target: 13:30, Last payment date: None
+2026-05-24 03:26:29,159 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:26:30,032 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:26:33,218 - app.utils.logger - INFO - Payment check - Time: 03:26, Target: 13:30, Last payment date: None
+2026-05-24 03:26:33,228 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:26:34,850 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:26:59,214 - app.utils.logger - INFO - Payment check - Time: 03:26, Target: 13:30, Last payment date: None
+2026-05-24 03:26:59,251 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:27:00,323 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:27:03,241 - app.utils.logger - INFO - Payment check - Time: 03:27, Target: 13:30, Last payment date: None
+2026-05-24 03:27:03,256 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:27:05,170 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:27:29,279 - app.utils.logger - INFO - Payment check - Time: 03:27, Target: 13:30, Last payment date: None
+2026-05-24 03:27:29,479 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:27:30,604 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:27:33,393 - app.utils.logger - INFO - Payment check - Time: 03:27, Target: 13:30, Last payment date: None
+2026-05-24 03:27:33,593 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:27:35,503 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:27:59,614 - app.utils.logger - INFO - Payment check - Time: 03:27, Target: 13:30, Last payment date: None
+2026-05-24 03:27:59,626 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:28:00,322 - app.utils.logger - INFO - Login attempt for email: topdvgroup@gmail.com
+2026-05-24 03:28:00,885 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:28:01,293 - app.utils.logger - INFO - User logged in successfully: topdvgroup@gmail.com
+2026-05-24 03:28:04,053 - app.utils.logger - INFO - Payment check - Time: 03:28, Target: 13:30, Last payment date: None
+2026-05-24 03:28:04,120 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:28:05,788 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:28:28,547 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:28:29,644 - app.utils.logger - INFO - Payment check - Time: 03:28, Target: 13:30, Last payment date: None
+2026-05-24 03:28:29,653 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:28:31,194 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:28:33,354 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:28:34,139 - app.utils.logger - INFO - Payment check - Time: 03:28, Target: 13:30, Last payment date: None
+2026-05-24 03:28:34,144 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:28:41,088 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:28:54,377 - app.utils.logger - INFO - New employee registered: Top Dv (ID: -OtMaM5VsiIupKXyg9j4)
+2026-05-24 03:28:59,690 - app.utils.logger - INFO - Payment check - Time: 03:28, Target: 13:30, Last payment date: None
+2026-05-24 03:28:59,707 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:29:01,538 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:29:02,089 - app.utils.logger - INFO - Attendance reset for 1 employees
+2026-05-24 03:29:02,142 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 03:29:04,157 - app.utils.logger - INFO - Payment check - Time: 03:29, Target: 13:30, Last payment date: None
+2026-05-24 03:29:04,166 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:29:05,629 - app.utils.logger - INFO - Attendance marked for Top Dv
+2026-05-24 03:29:05,632 - app.utils.logger - INFO - Attendance result: {'success': True, 'message': 'Attendance marked for Top Dv', 'data': {'employee_id': '-OtMaM5VsiIupKXyg9j4', 'name': 'Top Dv', 'timestamp': '2026-05-24 03:29:05'}}
+2026-05-24 03:29:06,277 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:29:11,369 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:29:11,989 - app.utils.logger - INFO - Attendance reset for 1 employees
+2026-05-24 03:29:12,190 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 03:29:27,026 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '03:30', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-24 03:29:27,035 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '03:30', 'payAmount': 100, 'shiftExpirelyTime': '00:00'}
+2026-05-24 03:29:29,773 - app.utils.logger - INFO - Payment check - Time: 03:29, Target: 03:30, Last payment date: None
+2026-05-24 03:29:29,779 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:29:34,214 - app.utils.logger - INFO - Payment check - Time: 03:29, Target: 03:30, Last payment date: None
+2026-05-24 03:29:34,293 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:30:00,077 - app.utils.logger - INFO - Payment check - Time: 03:30, Target: 03:30, Last payment date: None
+2026-05-24 03:30:00,152 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:30:00,534 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=1
+2026-05-24 03:30:04,450 - app.utils.logger - INFO - Payment check - Time: 03:30, Target: 03:30, Last payment date: None
+2026-05-24 03:30:04,686 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:30:05,189 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=1
+2026-05-24 03:30:30,533 - app.utils.logger - INFO - Payment check - Time: 03:30, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:30:30,557 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:30:35,204 - app.utils.logger - INFO - Payment check - Time: 03:30, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:30:35,294 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:31:00,566 - app.utils.logger - INFO - Payment check - Time: 03:31, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:31:00,571 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:31:05,410 - app.utils.logger - INFO - Payment check - Time: 03:31, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:31:05,496 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:31:30,574 - app.utils.logger - INFO - Payment check - Time: 03:31, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:31:35,585 - app.utils.logger - INFO - Payment check - Time: 03:31, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:31:50,723 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:32:25,326 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-24 03:32:56,944 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:32:56,992 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:32:57,254 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-24 03:33:05,716 - app.utils.logger - INFO - Firebase credentials loaded from file: serviceAccountKey.json
+2026-05-24 03:33:05,719 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-24 03:33:12,851 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '00:00', 'paymentTime': '03:30', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-24 03:33:12,852 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-24 03:33:12,916 - app.utils.logger - INFO - All blueprints registered
+2026-05-24 03:33:13,006 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:33:13,069 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:33:13,124 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:13,132 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:33:13,179 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: None
+2026-05-24 03:33:13,210 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:33:13,214 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:33:13,214 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:33:13,229 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:33:13,263 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 03:33:13,272 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:18,455 - app.utils.logger - INFO - No employees found
+2026-05-24 03:33:18,682 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 03:33:18,684 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: None
+2026-05-24 03:33:18,693 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:33:19,021 - app.utils.logger - INFO - No employees found
+2026-05-24 03:33:19,022 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:33:19,055 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:33:19,113 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:33:19,157 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:19,188 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:33:19,192 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: None
+2026-05-24 03:33:19,211 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:33:19,222 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:33:19,223 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:33:19,228 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:33:19,247 - app.utils.logger - INFO - Reset time already passed today - resetting on startup
+2026-05-24 03:33:19,273 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:19,503 - app.utils.logger - INFO - No employees found
+2026-05-24 03:33:19,575 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 03:33:19,578 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: None
+2026-05-24 03:33:19,584 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:33:19,872 - app.utils.logger - INFO - No employees found
+2026-05-24 03:33:19,874 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:33:19,883 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-24 03:33:19,887 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-24 03:33:20,443 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-24 03:33:43,459 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:48,445 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:33:48,447 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:33:49,493 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:33:49,494 - app.utils.logger - INFO - Payment check - Time: 03:33, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:33:49,518 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:33:52,724 - app.utils.logger - INFO - New employee registered: Top Dv (ID: -OtMbUwB3NDbPWMwFH1b)
+2026-05-24 03:34:07,584 - app.utils.logger - INFO - Attendance marked for Top Dv
+2026-05-24 03:34:07,592 - app.utils.logger - INFO - Attendance result: {'success': True, 'message': 'Attendance marked for Top Dv', 'data': {'employee_id': '-OtMbUwB3NDbPWMwFH1b', 'name': 'Top Dv', 'timestamp': '2026-05-24 03:34:07'}}
+2026-05-24 03:34:08,199 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:34:13,771 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:34:14,550 - app.utils.logger - INFO - Attendance reset for 1 employees
+2026-05-24 03:34:14,599 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 03:34:18,463 - app.utils.logger - INFO - Payment check - Time: 03:34, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:34:18,592 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:34:19,539 - app.utils.logger - INFO - Payment check - Time: 03:34, Target: 03:30, Last payment date: 2026-05-24
+2026-05-24 03:34:19,548 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:34:19,795 - app.utils.logger - INFO - Starting attendance reset...
+2026-05-24 03:34:20,351 - app.utils.logger - INFO - Attendance reset for 1 employees
+2026-05-24 03:34:20,352 - app.utils.logger - INFO - Attendance reset complete
+2026-05-24 03:34:38,594 - app.utils.logger - INFO - Settings saved to Firebase: {'paymentTime': '03:35', 'payAmount': 100, 'shiftExpirelyTime': '13:00'}
+2026-05-24 03:34:38,620 - app.utils.logger - INFO - Payment settings updated: {'paymentTime': '03:35', 'payAmount': 100, 'shiftExpirelyTime': '13:00'}
+2026-05-24 03:34:48,638 - app.utils.logger - INFO - Payment check - Time: 03:34, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:34:48,645 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:34:49,565 - app.utils.logger - INFO - Payment check - Time: 03:34, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:34:49,572 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:35:11,056 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:35:14,892 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:35:18,656 - app.utils.logger - INFO - Payment check - Time: 03:35, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:35:18,658 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:35:19,606 - app.utils.logger - INFO - Payment check - Time: 03:35, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:35:19,610 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:35:48,675 - app.utils.logger - INFO - Payment check - Time: 03:35, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:35:48,859 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:35:49,823 - app.utils.logger - INFO - Payment check - Time: 03:35, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:35:50,098 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:36:19,130 - app.utils.logger - INFO - Payment check - Time: 03:36, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:36:19,409 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:36:20,359 - app.utils.logger - INFO - Payment check - Time: 03:36, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:36:20,432 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:36:49,711 - app.utils.logger - INFO - Payment check - Time: 03:36, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:36:49,717 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:36:50,507 - app.utils.logger - INFO - Payment check - Time: 03:36, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:36:50,514 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:37:19,883 - app.utils.logger - INFO - Payment check - Time: 03:37, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:37:20,146 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:37:20,559 - app.utils.logger - INFO - Payment check - Time: 03:37, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:37:20,731 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:37:50,514 - app.utils.logger - INFO - Payment check - Time: 03:37, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:37:50,709 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:37:50,951 - app.utils.logger - INFO - Payment check - Time: 03:37, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:37:51,238 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:38:18,579 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:38:19,561 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:38:21,236 - app.utils.logger - INFO - Payment check - Time: 03:38, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:38:22,503 - app.utils.logger - INFO - Payment check - Time: 03:38, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:38:22,867 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:38:24,582 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:38:56,520 - app.utils.logger - INFO - Payment check - Time: 03:38, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:38:56,929 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:38:57,471 - app.utils.logger - INFO - Payment check - Time: 03:38, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:38:57,513 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:39:27,001 - app.utils.logger - INFO - Payment check - Time: 03:39, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:39:27,013 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:39:27,581 - app.utils.logger - INFO - Payment check - Time: 03:39, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:39:27,604 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:39:57,053 - app.utils.logger - INFO - Payment check - Time: 03:39, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:39:57,124 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:39:57,627 - app.utils.logger - INFO - Payment check - Time: 03:39, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:39:57,631 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:40:27,261 - app.utils.logger - INFO - Payment check - Time: 03:40, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:40:27,272 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:40:27,728 - app.utils.logger - INFO - Payment check - Time: 03:40, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:40:27,820 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:40:57,283 - app.utils.logger - INFO - Payment check - Time: 03:40, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:40:57,289 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:40:57,947 - app.utils.logger - INFO - Payment check - Time: 03:40, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:40:57,949 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:41:27,308 - app.utils.logger - INFO - Payment check - Time: 03:41, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:41:27,316 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:41:28,025 - app.utils.logger - INFO - Payment check - Time: 03:41, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:41:28,117 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:41:57,354 - app.utils.logger - INFO - Payment check - Time: 03:41, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:41:57,360 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:41:58,170 - app.utils.logger - INFO - Payment check - Time: 03:41, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:41:58,176 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:42:28,060 - app.utils.logger - INFO - Payment check - Time: 03:42, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:42:28,292 - app.utils.logger - INFO - Payment check - Time: 03:42, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:42:28,434 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:42:28,596 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:42:58,814 - app.utils.logger - INFO - Payment check - Time: 03:42, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:42:58,863 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:42:59,054 - app.utils.logger - INFO - Payment check - Time: 03:42, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:42:59,061 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:43:28,907 - app.utils.logger - INFO - Payment check - Time: 03:43, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:43:28,926 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:43:29,122 - app.utils.logger - INFO - Payment check - Time: 03:43, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:43:29,178 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:43:39,266 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:43:39,316 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:43:59,662 - app.utils.logger - INFO - Payment check - Time: 03:43, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:43:59,804 - app.utils.logger - INFO - Payment check - Time: 03:43, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:44:00,330 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:44:01,146 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:44:31,486 - app.utils.logger - INFO - Payment check - Time: 03:44, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:44:31,511 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:44:31,710 - app.utils.logger - INFO - Payment check - Time: 03:44, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:44:31,772 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:45:01,526 - app.utils.logger - INFO - Payment check - Time: 03:45, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:45:01,547 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:45:01,849 - app.utils.logger - INFO - Payment check - Time: 03:45, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:45:01,888 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:45:31,592 - app.utils.logger - INFO - Payment check - Time: 03:45, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:45:31,619 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:45:31,924 - app.utils.logger - INFO - Payment check - Time: 03:45, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:45:31,931 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:46:01,684 - app.utils.logger - INFO - Payment check - Time: 03:46, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:46:01,733 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:46:01,937 - app.utils.logger - INFO - Payment check - Time: 03:46, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:46:01,944 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:46:31,841 - app.utils.logger - INFO - Payment check - Time: 03:46, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:46:32,013 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:46:32,013 - app.utils.logger - INFO - Payment check - Time: 03:46, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:46:32,427 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:47:02,281 - app.utils.logger - INFO - Payment check - Time: 03:47, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:47:02,339 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:47:02,735 - app.utils.logger - INFO - Payment check - Time: 03:47, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:47:02,761 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:47:32,366 - app.utils.logger - INFO - Payment check - Time: 03:47, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:47:32,422 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:47:32,971 - app.utils.logger - INFO - Payment check - Time: 03:47, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:47:33,605 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:48:02,439 - app.utils.logger - INFO - Payment check - Time: 03:48, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:48:02,446 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:48:03,740 - app.utils.logger - INFO - Payment check - Time: 03:48, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:48:03,800 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:48:32,563 - app.utils.logger - INFO - Payment check - Time: 03:48, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:48:32,720 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:48:33,858 - app.utils.logger - INFO - Payment check - Time: 03:48, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:48:33,875 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:48:45,937 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:48:45,937 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:49:03,081 - app.utils.logger - INFO - Payment check - Time: 03:49, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:49:03,251 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:49:03,934 - app.utils.logger - INFO - Payment check - Time: 03:49, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:49:04,039 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:49:33,559 - app.utils.logger - INFO - Payment check - Time: 03:49, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:49:33,566 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:49:34,217 - app.utils.logger - INFO - Payment check - Time: 03:49, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:49:34,294 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:50:03,585 - app.utils.logger - INFO - Payment check - Time: 03:50, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:50:03,648 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:50:04,459 - app.utils.logger - INFO - Payment check - Time: 03:50, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:50:04,757 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:50:33,707 - app.utils.logger - INFO - Payment check - Time: 03:50, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:50:33,713 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:50:34,804 - app.utils.logger - INFO - Payment check - Time: 03:50, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:50:34,923 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:50:40,610 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-24 03:50:47,858 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:50:54,329 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:50:55,419 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 03:51:03,716 - app.utils.logger - INFO - Payment check - Time: 03:51, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:51:03,756 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:51:05,051 - app.utils.logger - INFO - Payment check - Time: 03:51, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:51:05,093 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:51:33,805 - app.utils.logger - INFO - Payment check - Time: 03:51, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:51:33,840 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:51:35,307 - app.utils.logger - INFO - Payment check - Time: 03:51, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:51:35,572 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:51:54,422 - app.utils.logger - INFO - New employee registered: Test User (ID: -OtMfc0rrek-w8WmHxzO)
+2026-05-24 03:51:58,238 - app.utils.logger - INFO - Retrieved 2 employees
+2026-05-24 03:52:02,125 - app.utils.logger - INFO - Attendance marked for Test User
+2026-05-24 03:52:02,131 - app.utils.logger - INFO - Attendance result: {'success': True, 'message': 'Attendance marked for Test User', 'data': {'employee_id': '-OtMfc0rrek-w8WmHxzO', 'name': 'Test User', 'timestamp': '2026-05-24 03:52:01'}}
+2026-05-24 03:52:02,783 - app.utils.logger - INFO - Retrieved 2 employees
+2026-05-24 03:52:03,908 - app.utils.logger - INFO - Payment check - Time: 03:52, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:52:03,921 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:52:05,960 - app.utils.logger - INFO - Payment check - Time: 03:52, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:52:06,045 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:52:33,930 - app.utils.logger - INFO - Payment check - Time: 03:52, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:52:33,943 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:52:36,073 - app.utils.logger - INFO - Payment check - Time: 03:52, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:52:36,080 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:53:04,182 - app.utils.logger - INFO - Payment check - Time: 03:53, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:53:04,373 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:53:06,375 - app.utils.logger - INFO - Payment check - Time: 03:53, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:53:06,665 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:53:34,656 - app.utils.logger - INFO - Payment check - Time: 03:53, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:53:34,731 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:53:37,287 - app.utils.logger - INFO - Payment check - Time: 03:53, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:53:37,590 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:53:55,172 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:53:55,472 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:54:04,792 - app.utils.logger - INFO - Payment check - Time: 03:54, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:54:04,801 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:54:08,052 - app.utils.logger - INFO - Payment check - Time: 03:54, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:54:08,158 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:54:34,939 - app.utils.logger - INFO - Payment check - Time: 03:54, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:54:34,954 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:54:38,452 - app.utils.logger - INFO - Payment check - Time: 03:54, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:54:38,515 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:55:05,079 - app.utils.logger - INFO - Payment check - Time: 03:55, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:55:05,413 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:55:08,761 - app.utils.logger - INFO - Payment check - Time: 03:55, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:55:09,018 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:55:35,983 - app.utils.logger - INFO - Payment check - Time: 03:55, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:55:37,130 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:55:41,236 - app.utils.logger - INFO - Payment check - Time: 03:55, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:55:42,471 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:56:11,607 - app.utils.logger - INFO - Payment check - Time: 03:56, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:56:11,974 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:56:13,328 - app.utils.logger - INFO - Payment check - Time: 03:56, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:56:13,804 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:56:42,807 - app.utils.logger - INFO - Payment check - Time: 03:56, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:56:42,923 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:56:45,744 - app.utils.logger - INFO - Payment check - Time: 03:56, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:56:46,952 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:57:13,095 - app.utils.logger - INFO - Payment check - Time: 03:57, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:57:13,100 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:57:17,931 - app.utils.logger - INFO - Payment check - Time: 03:57, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:57:18,281 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:57:43,135 - app.utils.logger - INFO - Payment check - Time: 03:57, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:57:43,171 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:57:48,474 - app.utils.logger - INFO - Payment check - Time: 03:57, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:57:48,561 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:58:13,462 - app.utils.logger - INFO - Payment check - Time: 03:58, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:58:14,046 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:58:19,573 - app.utils.logger - INFO - Payment check - Time: 03:58, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:58:20,167 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:58:44,796 - app.utils.logger - INFO - Payment check - Time: 03:58, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 03:58:45,535 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 03:58:47,493 - app.utils.logger - INFO - Shutdown signal received. Stopping services...
+2026-05-24 03:59:08,530 - app.utils.logger - INFO - Firebase credentials loaded from file: serviceAccountKey.json
+2026-05-24 03:59:08,550 - app.utils.logger - INFO - Firebase initialized successfully
+2026-05-24 03:59:18,698 - app.utils.logger - INFO - Settings loaded from Firebase: {'shiftExpirelyTime': '13:00', 'paymentTime': '03:35', 'payAmount': 100, 'pawapayApiUrl': 'https://api.sandbox.pawapay.io/v2/payouts'}
+2026-05-24 03:59:18,729 - app.utils.logger - INFO - Firebase and Settings initialized successfully
+2026-05-24 03:59:19,339 - app.utils.logger - INFO - All blueprints registered
+2026-05-24 03:59:19,423 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:59:19,484 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:59:19,501 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:59:19,508 - app.utils.logger - INFO - Payment check - Time: 03:59, Target: 03:35, Last payment date: None
+2026-05-24 03:59:19,559 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:59:19,559 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:59:19,561 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:59:19,604 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:59:19,605 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 03:59:19,661 - app.utils.logger - INFO - Payment check - Time: 03:59, Target: 03:35, Last payment date: None
+2026-05-24 03:59:19,681 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:59:19,923 - app.utils.logger - INFO - Processing payment for employee: Top Dv
+2026-05-24 03:59:20,007 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250783355271
+2026-05-24 03:59:26,243 - app.utils.logger - INFO - Processing payment for employee: Top Dv
+2026-05-24 03:59:26,244 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250783355271
+2026-05-24 03:59:26,464 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250783355271
+2026-05-24 03:59:26,471 - app.utils.logger - INFO - ✅ Payment request sent for Top Dv
+2026-05-24 03:59:26,473 - app.utils.logger - INFO - Processing payment for employee: Test User
+2026-05-24 03:59:26,474 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250788888888
+2026-05-24 03:59:31,374 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250783355271
+2026-05-24 03:59:31,380 - app.utils.logger - INFO - ✅ Payment request sent for Top Dv
+2026-05-24 03:59:31,381 - app.utils.logger - INFO - Processing payment for employee: Test User
+2026-05-24 03:59:31,382 - app.utils.logger - INFO - Requesting payment of 100 RWF to 250788888888
+2026-05-24 03:59:31,484 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250788888888
+2026-05-24 03:59:31,490 - app.utils.logger - INFO - ✅ Payment request sent for Test User
+2026-05-24 03:59:31,491 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=2, Failed=0, Skipped=0
+2026-05-24 03:59:35,273 - app.utils.logger - INFO - ✓ Payment request ACCEPTED for 250788888888
+2026-05-24 03:59:35,282 - app.utils.logger - INFO - ✅ Payment request sent for Test User
+2026-05-24 03:59:35,285 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=2, Failed=0, Skipped=0
+2026-05-24 03:59:35,287 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:59:35,296 - app.utils.logger - INFO - Starting background threads...
+2026-05-24 03:59:35,304 - app.utils.logger - INFO - Attendance reset timer thread started
+2026-05-24 03:59:35,312 - app.utils.logger - INFO - Payment timer thread started
+2026-05-24 03:59:35,324 - app.utils.logger - INFO - Payment check - Time: 03:59, Target: 03:35, Last payment date: None
+2026-05-24 03:59:35,328 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:59:35,331 - app.utils.logger - INFO - Payment status checker thread started
+2026-05-24 03:59:35,331 - app.utils.logger - INFO - All background threads started successfully
+2026-05-24 03:59:35,349 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 03:59:35,357 - app.utils.logger - INFO - Payment time already passed today - processing payments on startup
+2026-05-24 03:59:35,372 - app.utils.logger - INFO - Payment check - Time: 03:59, Target: 03:35, Last payment date: None
+2026-05-24 03:59:35,388 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:59:35,615 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=2
+2026-05-24 03:59:35,690 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=2
+2026-05-24 03:59:35,692 - app.utils.logger - INFO - Startup event check completed
+2026-05-24 03:59:35,703 - app.utils.logger - INFO - Starting Flask server on http://0.0.0.0:5000
+2026-05-24 03:59:35,707 - app.utils.logger - INFO - Open your browser and go to: http://localhost:5000
+2026-05-24 03:59:37,080 - waitress - INFO - Serving on http://0.0.0.0:5000
+2026-05-24 03:59:43,744 - app.utils.logger - INFO - Payment check - Time: 03:59, Target: 03:35, Last payment date: None
+2026-05-24 03:59:43,746 - app.utils.logger - INFO - 🚀 PAYMENT TIME REACHED! Starting employee payment requests...
+2026-05-24 03:59:44,043 - app.utils.logger - INFO - 📊 Payment request complete. Accepted=0, Failed=0, Skipped=2
+2026-05-24 04:00:01,505 - app.utils.logger - INFO - Payment check - Time: 04:00, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:00:01,513 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:00:05,620 - app.utils.logger - INFO - Payment check - Time: 04:00, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:00:05,622 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:00:31,546 - app.utils.logger - INFO - Payment check - Time: 04:00, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:00:31,805 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:00:35,696 - app.utils.logger - INFO - Payment check - Time: 04:00, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:00:35,775 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:01:02,336 - app.utils.logger - INFO - Payment check - Time: 04:01, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:01:02,464 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:01:06,642 - app.utils.logger - INFO - Payment check - Time: 04:01, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:01:07,002 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:01:32,765 - app.utils.logger - INFO - Payment check - Time: 04:01, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:01:32,959 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:01:32,961 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:01:33,056 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:26Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '22c77a2c-aaea-4a01-854d-97f4647f9ddf', 'providerTransactionId': 'f464c1eb-9939-45b5-a5c0-265bec95141b', 'recipient': {'accountDetails': {'phoneNumber': '250783355271', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:01:33,357 - app.utils.logger - WARNING - Payout ID not found in database: 22c77a2c-aaea-4a01-854d-97f4647f9ddf
+2026-05-24 04:01:34,379 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:01:34,383 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:31Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '112b976f-60df-42f8-a085-829444d65490', 'providerTransactionId': '338b1bf8-8fc0-4d14-bfad-bdff8583d411', 'recipient': {'accountDetails': {'phoneNumber': '250783355271', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:01:34,531 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:01:34,536 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:31Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '6d997763-b616-432a-a197-2b0261cecd08', 'providerTransactionId': 'af3e5dfa-3bbd-47d2-ade5-8cd884aea23a', 'recipient': {'accountDetails': {'phoneNumber': '250788888888', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:01:34,675 - app.utils.logger - INFO - ✅ Payment CONFIRMED for employee -OtMbUwB3NDbPWMwFH1b
+2026-05-24 04:01:37,189 - app.utils.logger - INFO - Payment check - Time: 04:01, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:01:37,291 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:01:39,132 - app.utils.logger - WARNING - Payout ID not found in database: 6d997763-b616-432a-a197-2b0261cecd08
+2026-05-24 04:01:39,449 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:01:39,497 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:35Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '549af350-b527-460a-a70e-0f2d268e46ee', 'providerTransactionId': '8623c6f7-1345-4ff4-8cd3-b4d7252ca550', 'recipient': {'accountDetails': {'phoneNumber': '250788888888', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:01:39,840 - app.utils.logger - INFO - ✅ Payment CONFIRMED for employee -OtMfc0rrek-w8WmHxzO
+2026-05-24 04:02:03,114 - app.utils.logger - INFO - Payment check - Time: 04:02, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:02:03,134 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:02:07,400 - app.utils.logger - INFO - Payment check - Time: 04:02, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:02:07,454 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:02:33,161 - app.utils.logger - INFO - Payment check - Time: 04:02, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:02:33,166 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:02:37,477 - app.utils.logger - INFO - Payment check - Time: 04:02, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:02:37,485 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:03:03,339 - app.utils.logger - INFO - Payment check - Time: 04:03, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:03:03,555 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:03:07,600 - app.utils.logger - INFO - Payment check - Time: 04:03, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:03:07,623 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:03:34,398 - app.utils.logger - INFO - Payment check - Time: 04:03, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:03:34,419 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:03:37,649 - app.utils.logger - INFO - Payment check - Time: 04:03, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:03:37,656 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:04:05,058 - app.utils.logger - INFO - Payment check - Time: 04:04, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:04:07,725 - app.utils.logger - INFO - Payment check - Time: 04:04, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:04:15,598 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 04:04:20,233 - waitress.queue - WARNING - Task queue depth is 1
+2026-05-24 04:04:26,049 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 04:04:34,482 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:04:34,502 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:04:43,659 - app.utils.logger - INFO - Retrieved 1 employees
+2026-05-24 04:04:44,123 - app.utils.logger - INFO - Checking pending payment statuses...
+2026-05-24 04:05:02,821 - app.utils.logger - INFO - Employee -OtMbUwB3NDbPWMwFH1b deleted
+2026-05-24 04:05:04,692 - app.utils.logger - INFO - Payment check - Time: 04:05, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:05:04,692 - app.utils.logger - INFO - Payment check - Time: 04:05, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:05:04,777 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:05:04,792 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:05:32,368 - app.utils.logger - INFO - New employee registered: Top Dv (ID: -OtMiji2y6Xq4sV_1wtn)
+2026-05-24 04:05:34,583 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:05:34,586 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:26Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '22c77a2c-aaea-4a01-854d-97f4647f9ddf', 'providerTransactionId': 'f464c1eb-9939-45b5-a5c0-265bec95141b', 'recipient': {'accountDetails': {'phoneNumber': '250783355271', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:05:34,821 - app.utils.logger - INFO - Payment check - Time: 04:05, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:05:34,822 - app.utils.logger - INFO - Payment check - Time: 04:05, Target: 03:35, Last payment date: 2026-05-24
+2026-05-24 04:05:34,834 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:05:34,837 - app.utils.logger - INFO - Payment check - Not time yet or already processed today
+2026-05-24 04:05:34,890 - app.utils.logger - WARNING - Payout ID not found in database: 22c77a2c-aaea-4a01-854d-97f4647f9ddf
+2026-05-24 04:05:39,441 - app.utils.logger - INFO - Webhook received
+2026-05-24 04:05:39,454 - app.utils.logger - INFO - Webhook data: {'amount': '100.00', 'country': 'RWA', 'created': '2026-05-24T01:59:31Z', 'currency': 'RWF', 'customerMessage': 'COTC', 'payoutId': '6d997763-b616-432a-a197-2b0261cecd08', 'providerTransactionId': 'af3e5dfa-3bbd-47d2-ade5-8cd884aea23a', 'recipient': {'accountDetails': {'phoneNumber': '250788888888', 'provider': 'MTN_MOMO_RWA'}, 'type': 'MMO'}, 'status': 'COMPLETED'}
+2026-05-24 04:05:39,765 - app.utils.logger - WARNING - Payout ID not found in database: 6d997763-b616-432a-a197-2b0261cecd08
+2026-05-24 04:05:57,938 - app.utils.logger - INFO - Shutdown signal received. Stopping services...

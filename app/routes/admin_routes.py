@@ -7,6 +7,8 @@ from app.utils.logger import logger
 from flask_limiter import Limiter  # ← ADD THIS
 from flask_limiter.util import get_remote_address  # ← ADD THIS
 
+limiter = Limiter(key_func=get_remote_address)
+
 admin_bp = Blueprint('admin', __name__, url_prefix='/api/admin')
 
 @admin_bp.route('/settings', methods=['GET'])
@@ -53,7 +55,7 @@ def update_payment_settings():
         return jsonify({"error": str(e)}), 500
 
 @admin_bp.route('/stats', methods=['GET'])
-# @Limiter.exempt  # ← ADD THIS LINE
+@limiter.exempt
 def get_stats():
     try:
         firebase_service = current_app.config['FIREBASE_SERVICE']

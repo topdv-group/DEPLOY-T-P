@@ -5,10 +5,6 @@ from app.utils.logger import logger
 
 payment_bp = Blueprint('payment', __name__, url_prefix='/api')
 
-
-#https://banker-goliath-humped.ngrok-free.dev/pawapay/webhook
-#https://deploy-t-p.onrender.com/pawapay/webhook
-
 @payment_bp.route("/pawapay/webhook", methods=["POST"])
 def pawapay_webhook():
     try:
@@ -45,4 +41,23 @@ def pawapay_webhook():
         
     except Exception as e:
         logger.error(f"Webhook error: {str(e)}")
+        return jsonify({"error": str(e)}), 500
+
+# ADD THIS NEW ENDPOINT ↓↓↓
+@payment_bp.route('/admin/payments/trigger', methods=['POST'])
+def trigger_payments_manually():
+    """Manually trigger payment processing for testing"""
+    try:
+        from app.background.payment_timer import PaymentTimer
+        from app.utils.logger import shutdown_event
+        
+        firebase_service = current_app.config['FIREBASE_SERVICE']
+        settings_service = current_app.config['SETTINGS_SERVICE']
+        
+        payment_timer = PaymentTimer(firebase_service, settings_service, shutdown_event)
+        payment_timer.process_payments()
+        
+        return jsonify({"success": True, "message": "Payment processing triggered"}), 200
+    except Exception as e:
+        logger.error(f"Manual trigger error: {e}")
         return jsonify({"error": str(e)}), 500
