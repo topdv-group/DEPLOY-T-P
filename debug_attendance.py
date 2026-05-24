@@ -1,61 +1,48 @@
-# mark_attended.py
+# test_email.py
 import os
-import json
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
-import firebase_admin
-from firebase_admin import credentials, db
-from datetime import datetime
 
 load_dotenv()
 
-# Initialize Firebase
-key_path = os.getenv("FIREBASE_KEY_PATH", "serviceAccountKey.json")
-cred = credentials.Certificate(key_path)
-firebase_admin.initialize_app(cred, {
-    'databaseURL': os.getenv('DATABASE_URL')
-})
+print("Testing SMTP Configuration...")
+print("=" * 50)
 
-# Get all employees
-employees_ref = db.reference("EMPLOYEES")
-employees = employees_ref.get()
+smtp_server = os.getenv('SMTP_SERVER')
+smtp_port = int(os.getenv('SMTP_PORT', 587))
+smtp_username = os.getenv('SMTP_USERNAME')
+smtp_password = os.getenv('SMTP_PASSWORD')
+smtp_from_email = os.getenv('SMTP_FROM_EMAIL', smtp_username)
 
-if not employees:
-    print("No employees found! Create one first.")
-    # Create a test employee
-    test_employee = {
-        "name": "Test Employee",
-        "phone": "0788888888",
-        "rfid": "TEST123",
-        "attended": True,
-        "paid": False,
-        "attendance": [{
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "date": datetime.now().strftime("%Y-%m-%d")
-        }],
-        "registerTime": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    }
-    new_ref = employees_ref.push(test_employee)
-    print(f"✅ Created test employee: Test Employee (RFID: TEST123)")
-else:
-    # Mark first employee as attended
-    for key, details in employees.items():
-        current_date = datetime.now().strftime("%Y-%m-%d")
-        
-        # Add attendance record
-        attendance_list = details.get("attendance", [])
-        attendance_list.append({
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "date": current_date
-        })
-        
-        # Update employee
-        employees_ref.child(key).update({
-            "attended": True,
-            "attendance": attendance_list,
-            "last_attendance": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "last_attendance_date": current_date
-        })
-        print(f"✅ Marked {details.get('name')} as attended")
-        break
+print(f"Server: {smtp_server}")
+print(f"Port: {smtp_port}")
+print(f"Username: {smtp_username}")
+print(f"Password: {'*' * len(smtp_password) if smtp_password else 'NOT SET'}")
+print(f"From Email: {smtp_from_email}")
 
-print("\nNow run payments with: curl -X POST http://localhost:5000/api/admin/payments/trigger")
+try:
+    # Create test email
+    msg = MIMEMultipart()
+    msg['From'] = smtp_from_email
+    msg['To'] = smtp_username  # Send to yourself
+    msg['Subject'] = 'SMTP Test - Tap & Pay'
+    
+    body = "This is a test email from your Tap & Pay system. SMTP is working!"
+    msg.attach(MIMEText(body, 'plain'))
+    
+    # Connect and send
+    print("\nConnecting to SMTP server...")
+    server = smtplib.SMTP(smtp_server, smtp_port)
+    server.starttls()
+    print("Logging in...")
+    server.login(smtp_username, smtp_password)
+    print("Sending email...")
+    server.send_message(msg)
+    server.quit()
+    
+    print("\n✅ Email sent successfully!")
+    
+except Exception as e:
+    print(f"\n❌ Error: {e}")
