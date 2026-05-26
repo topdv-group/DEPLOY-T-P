@@ -31,7 +31,8 @@ class PaymentService:
         clean_phone = ''.join(filter(str.isdigit, str(phone)))
         if len(clean_phone) < 9:
             return None
-        return f"250{clean_phone[-9:]}"
+        # return f"250{clean_phone[-9:]}"
+        return f"256{clean_phone[-9:]}"
     
     def request_payment(self, employee_id, employee_details):
         """Request a payment for an employee"""
@@ -57,12 +58,14 @@ class PaymentService:
             payload = {
                 "payoutId": payout_id,
                 "amount": pay_amount,
-                "currency": "RWF",
+                # "currency": "RWF",
+                "currency": "UGX",
                 "recipient": {
                     "type": "MMO",
                     "accountDetails": {
                         "phoneNumber": formatted_phone,
-                        "provider": "MTN_MOMO_RWA"
+                        # "provider": "MTN_MOMO_RWA"
+                        "provider": "MTN_MOMO_UGA" 
                     }
                 }
             }
